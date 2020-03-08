@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+Intellectual Property of the State of the Netherlands
+Architecture: nt14
+Version: 20191211
+Release date: Fri, 27 Sep 2019 08:21:35 GMT
+-->
+<xs:schema id="bd-rpt-vpb-vrl" targetNamespace="http://www.nltaxonomie.nl/nt14/bd/20191211/entrypoints/bd-rpt-vpb-verzoekwijzigingva-2020" xmlns:bd-rpt-vpb-vrl="http://www.nltaxonomie.nl/nt14/bd/20191211/entrypoints/bd-rpt-vpb-verzoekwijzigingva-2020" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:href="../presentation/bd-vpb-verzoekwijzigingva-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../validation/bd-rpt-vpb-verzoekwijzigingva-2020-hypercube-dimension-def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../validation/bd-rpt-vpb-verzoekwijzigingva-2020-lineitems-def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

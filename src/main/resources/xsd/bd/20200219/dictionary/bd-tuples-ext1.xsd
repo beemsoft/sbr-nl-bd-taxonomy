@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+Intellectual Property of the State of the Netherlands
+Architecture: nt14
+Version: 20200219
+Release date: Tue, 10 Dec 2019 07:50:24 GMT
+-->
+<xs:schema id="bd-t-ext1" targetNamespace="http://www.nltaxonomie.nl/nt14/bd/20200219/dictionary/bd-tuples-ext1" xmlns:bd-i="http://www.nltaxonomie.nl/nt14/bd/20191211/dictionary/bd-data" xmlns:bd-i-ext1="http://www.nltaxonomie.nl/nt14/bd/20200219/dictionary/bd-data-ext1" xmlns:bd-t="http://www.nltaxonomie.nl/nt14/bd/20191211/dictionary/bd-tuples" xmlns:bd-t-ext1="http://www.nltaxonomie.nl/nt14/bd/20200219/dictionary/bd-tuples-ext1" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:href="./bd-tuples-ext1-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="./bd-tuples-ext1-ref.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd" />
+  <xs:import namespace="http://www.nltaxonomie.nl/nt14/bd/20200219/dictionary/bd-data-ext1" schemaLocation="bd-data-ext1.xsd" />
+  <xs:import namespace="http://www.nltaxonomie.nl/nt14/bd/20191211/dictionary/bd-tuples" schemaLocation="../../20191211/dictionary/bd-tuples.xsd" />
+  <xs:import namespace="http://www.nltaxonomie.nl/nt14/bd/20191211/dictionary/bd-data" schemaLocation="../../20191211/dictionary/bd-data.xsd" />
+  <xs:element id="bd-t-ext1_AnnuityBenefitsSpecification" name="AnnuityBenefitsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsBenefitPerYearAmount" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsBenefitTermination" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsBenefitTerminationDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsIncreaseBenefitsValueAmount" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsPolicyNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsReceiverDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsReceiverIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsReceiverInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsReceiverPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsReceiverSurname" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsRedemption" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:AnnuityBenefitsStartDate" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_AppointPostsSpecification" name="AppointPostsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:FinancialYearEnd" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:FinancialYearStart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerIdentificationNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerSurname" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_BankBalancesSpecification" name="BankBalancesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:BankBalancesAfterReducingFactorsValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BankBalancesBankAccountBalanceOnDeceasedDate" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BankBalancesBankAccountNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BankBalancesEntirePossessionTestatorPartner" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BankBalancesTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BankBalancesTestatorPartnerPart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BankBalancesTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_BenefitsFromSalesSpecification" name="BenefitsFromSalesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:choice minOccurs="1" maxOccurs="1">
+              <xs:element ref="bd-t:AddressAbroadPresentation" minOccurs="0" maxOccurs="1" />
+              <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+            </xs:choice>
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedCommercialValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedDeedDate" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedDeedOfConveyanceDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedImmovablePropertyLawValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedPersonAmountPayedFor" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedPersonDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedPersonIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedPersonInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedPersonPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedPersonSurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedResidentDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedResidentIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedResidentInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedResidentMayContinue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedResidentPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldDonatedResidentSurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BenefitsFromSalesResidenceSoldImmovablePropertyLawValueJanuariFirstTwoThousandTen" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_BusinessSuccessionFacilitiesApplicantSpecification" name="BusinessSuccessionFacilitiesApplicantSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:BusinessSuccessionFacilitiesApplicantDeferredTaxProportionalPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessSuccessionFacilitiesApplicantIdentificationNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessSuccessionFacilitiesApplicantSurname" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessSuccessionFacilitiesBusinessCapitalInAcquisition" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessSuccessionFacilitiesConditionalExcemptionRequest" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessSuccessionFacilitiesPreservedTaxAssessmentRequest" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_CapitalComponentsSpecification" name="CapitalComponentsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldAgreementStartDate" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldAmountPayedFor" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldDescription" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldReceiverBuyerDateOfBirth" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldReceiverBuyerIdentificationNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldReceiverBuyerInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldReceiverBuyerPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldReceiverBuyerSurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldReceiverRevenueDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldReceiverRevenueIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldReceiverRevenueInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldReceiverRevenuePrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldReceiverRevenueSurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldRevenueReceivedByOtherPersonInstitution" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CapitalComponentsDonatedSoldValue" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_ContactAddressPresentation" name="ContactAddressPresentation" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:choice minOccurs="1" maxOccurs="1">
+              <xs:element ref="bd-t:AddressAbroadPresentation" minOccurs="0" maxOccurs="1" />
+              <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+            </xs:choice>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_CorrespondenceAddressPresentation" name="CorrespondenceAddressPresentation" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:choice minOccurs="1" maxOccurs="1">
+              <xs:element ref="bd-t:AddressAbroadPresentation" minOccurs="0" maxOccurs="1" />
+              <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+            </xs:choice>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_DeceasedAddressPresentation" name="DeceasedAddressPresentation" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:choice minOccurs="1" maxOccurs="1">
+              <xs:element ref="bd-t:AddressAbroadPresentation" minOccurs="0" maxOccurs="1" />
+              <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+            </xs:choice>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_DivideTestamentPresentation" name="DivideTestamentPresentation" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:EntireCapitalToOnePersonIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EntireCapitalToOnePersonInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EntireCapitalToOnePersonLegalPersonName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EntireCapitalToOnePersonPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EntireCapitalToOnePersonSurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InterestSingleOrCompound" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-t-ext1:LegaciesSpecification" minOccurs="0" maxOccurs="250" />
+            <xs:element ref="bd-i-ext1:LegacyRejected" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-t-ext1:NotaryAddressPresentation" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:NotaryInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:NotaryPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:NotarySurname" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:OtherHeirsClaimInheritancePartOnReceiver" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PaymentOtherInterestPercentageThanAccordingToTestament" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ReceivablesInterestAgreementDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ReceivablesInterestFirstHeirPercentage" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TestamentDateTestatorSignature" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TestamentInterestPercentage" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TestamentSingleOrCompoundInterestPercentage" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:WholeCapitalToOnePerson" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_DonationReceiverSpecification" name="DonationReceiverSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:DonationReceiverAmount" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:DonationReceiverDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:DonationReceiverDonationDate" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:DonationReceiverIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:DonationReceiverInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:DonationReceiverInstitutionName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:DonationReceiverPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:DonationReceiverSurname" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_DoubleTaxationAvoidanceDeductionSpecification" name="DoubleTaxationAvoidanceDeductionSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:DoubleTaxationAvoidanceDeductionInheritanceSimilarTaxPaidCountryCode" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:DoubleTaxationAvoidanceDeductionInheritanceTaxSimilarPaidOtherCountry" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_EstateSceneryLawSpecification" name="EstateSceneryLawSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:EstateBuildingEconomicValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateBuildingsDestinationValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateLandsDestinationValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateLandsEconomicValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateRankedUnderSceneryLaw" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateRankingRequestDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateSceneryLawBeneficiaryDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateSceneryLawBeneficiaryIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateSceneryLawBeneficiaryInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateSceneryLawBeneficiaryPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:EstateSceneryLawBeneficiarySurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RankingSceneryLawRequested" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SceneryLawNumber" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_GiftImmovablePropertyAddressPresentation" name="GiftImmovablePropertyAddressPresentation" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:choice minOccurs="1" maxOccurs="1">
+              <xs:element ref="bd-t:AddressAbroadPresentation" minOccurs="0" maxOccurs="1" />
+              <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+            </xs:choice>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_GiftSpecification" name="GiftSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:BusinessCapitalGiftPrice" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:CentralDigitalRepertoryNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftBenefitAmount" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftBenefitPeriod" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftBusinessLegalForm" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftBusinessSuccessionFacilitiesObjectiveBusinessGoingConcernValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftBusinessSuccessionFacilitiesObjectiveBusinessLiquidationValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftBusinessTransferredPartPurchasePrice" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftBusinessTransferredPartValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftCashMoneyBalances" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftDate" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftDebtRecognitionOutOfGenerosity" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftDebtRemissionValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftDeferredTaxTransferredPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftExemptionANBIOrSBBI" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftExemptionBusinessSuccessionIndication" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftExemptionDebtor" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftExemptionExpensiveStudyIncreased" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftExemptionNaturalObligation" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftExemptionOneOffIncreased" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftExemptionOther" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftExemptionOwnHouseOneOffIncreased" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftExtensionPartnerConceptIndication" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-t-ext1:GiftImmovablePropertyAddressPresentation" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyAnnualGroundLeaseValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyAnnualRentValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyCommercialValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyEstateSceneryLawIndication" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyExposedValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyLandRegistryDesignation" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyLargerPartHouseSeparatelySaleableIndication" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyLawValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyLowerPurchasePriceThanMarketValueIndication" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyMarketCompliantRentIndication" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyPurchasePrice" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyRemittedPurchasePrice" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertySurfaceSquareMetresHiredOut" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertySurfaceSquareMetresTotal" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyTransferredPartDenominator" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyTransferredPartNumerator" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftImmovablePropertyTransferTaxPayedGiftPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftLonglivedDependenceIndication" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftMovablePropertyType" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftMovablePropertyValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftOtherDescription" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftOtherValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftOwnHouseSpendingAmount" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftPeriodicFirstDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftPeriodicLastDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftPreservedAssessmentIndication" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftRecipientDonorRelationCode" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftRevocableGiftIndication" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftStockValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftTaxPayerIndication" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftTrustCapitalIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftTrustCapitalName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftTrustCapitalValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:GiftUsufructValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:NotaryConvenantCreationDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-t-ext1:NotaryDomesticAddressPresentation" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:NotaryInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:NotaryNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:NotaryPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:NotarySurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-t-ext1:PersonSpecification" minOccurs="0" maxOccurs="2" />
+            <xs:element ref="bd-i-ext1:TaxSimilarDifferentCountryPayed" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_HeirBenificiaryTaxedDataSpecification" name="HeirBenificiaryTaxedDataSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:choice minOccurs="0" maxOccurs="1">
+              <xs:element ref="bd-t:AddressAbroadPresentation" minOccurs="0" maxOccurs="1" />
+              <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+            </xs:choice>
+            <xs:element ref="bd-i-ext1:HeirBenificiaryLegacyAcquisition" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataCohabitationAgreementCaregiverCareRecipient" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataCohabitationAgreementDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataDeferredPaymentHeirExposedProperty" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataGender" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataHeirIdenficationNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataHeirInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataHeirInstitutionName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataHeirPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataHeirSurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataInheritancePercentageHeirDenominator" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataInheritancePercentageHeirNumerator" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataLegacyFreeFromRight" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataLegacyOtherTotal" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataPartnerIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataRegistrationSameAdressInMonths" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataRegistrationSameAdressInYears" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataRelationCode" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataUsufruct" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirBenificiaryTaxedDataUsufructValue" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_HeirNoDeclarationMadeForSpecification" name="HeirNoDeclarationMadeForSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:HeirNoDeclarationMadeForIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirNoDeclarationMadeForInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirNoDeclarationMadeForPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:HeirNoDeclarationMadeForSurname" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_ImmovablePropertyOtherSpecification" name="ImmovablePropertyOtherSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:choice minOccurs="0" maxOccurs="1">
+              <xs:element ref="bd-t:AddressAbroadPresentation" minOccurs="0" maxOccurs="1" />
+              <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+            </xs:choice>
+            <xs:element ref="bd-i-ext1:EstateImmovableProperty" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherAfterReducingFactorsValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherEntirePossessionTestatorPartner" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherGroundLease" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherGroundLeaseYearly" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherHiredOut" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherHiredOutEntirely" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherHolidayHomeHiredOutTemporarily" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherHouse" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherImmovablePropertyLawValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherRentAmount" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherRentPointsSystemOrRealRent" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherSquareMetersHiredOut" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherSquareMetersTotal" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherTestatorPartnerPart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ImmovablePropertyOtherTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_InheritanceBusinessesSpecification" name="InheritanceBusinessesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:choice minOccurs="1" maxOccurs="1">
+              <xs:element ref="bd-t:AddressAbroadPresentation" minOccurs="0" maxOccurs="1" />
+              <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+            </xs:choice>
+            <xs:element ref="bd-i-ext1:BusinessCapitalOtherBusinessCapitalCommonValuePart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessCapitalOtherBusinessCapitalDeceasedPartDenominator" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessCapitalOtherBusinessCapitalDeceasedPartNumerator" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessCapitalOtherBusinessCapitalPartnerDeceasedPartDenominator" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessCapitalOtherBusinessCapitalPartnerDeceasedPartNumerator" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessCapitalOtherBusinessHiddenReservesValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessCapitalOtherGoingConcernValueWholeCompany" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessCapitalOtherHiddenReservesCommonValuePart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessCapitalOtherLiquidationValueBusiness" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessCapitalOtherReservesDeferredTaxReturnIncomeTaxDeceasedPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessLegalForm" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessName" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessSuccessionExists" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-t-ext1:BusinessSuccessionFacilitiesApplicantSpecification" minOccurs="0" maxOccurs="40" />
+            <xs:element ref="bd-i-ext1:BusinessSuccessionFacilitiesObjectiveBusinessGoingConcernValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessSuccessionFacilitiesObjectiveBusinessLiquidationValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:BusinessValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SubstantialInterestSharesCommonValuePart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SubstantialInterestSharesDeferredTaxReturnIncomeTaxPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SubstantialInterestSharesGoingConcernValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SubstantialInterestSharesLiquidationValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SubstantialInterestSharesPartDeceasedSharesCapitalDenominator" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SubstantialInterestSharesPartDeceasedSharesCapitalNumerator" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SubstantialInterestSharesPartPartnerDeceasedSharesCapitalDenominator" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SubstantialInterestSharesPartPartnerDeceasedSharesCapitalNumerator" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverClauseSubstantialInterestBusinessCapital" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverClauseSubstantialInterestSubstantialInterestTransfereeInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverClauseSubstantialInterestSubstantialInterestTransfereePrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverClauseSubstantialInterestTakeOverClauseCompensation" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverClauseSubstantialInterestTakeOverClauseValue" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverClauseSubstantialInterestTransfereeDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverClauseSubstantialInterestTransfereeIdentificationnumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverClauseSubstantialInterestTransfereeSurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverClauseSubstantialInterestValueCompensationPaidForTakeOver" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverClauseSubstantialInterestValueTakenOverPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TakeOverPartDeceasedBusinessSubstantialInterest" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_InheritanceDebtHeirsSpecification" name="InheritanceDebtHeirsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsEntirePossessionTestatorPartner" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsInterestPercentage" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsNominalValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsPartnerPreviouslyDeceasedDateOfBirth" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsPartnerPreviouslyDeceasedDeceasedDate" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsPartnerPreviouslyDeceasedIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsPartnerPreviouslyDeceasedInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsPartnerPreviouslyDeceasedPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsPartnerPreviouslyDeceasedSurname" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsSingleOrCompoundInterest" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsTestatorPartnerPart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtHeirsTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_InheritanceDebtsOtherSpecification" name="InheritanceDebtsOtherSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:InheritanceDebtsOtherAmount" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtsOtherDescription" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtsOtherEntirePossessionTestatorPartner" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtsOtherTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtsOtherTestatorPartnerPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDebtsOtherTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_InheritanceDonationsOnPaperSpecification" name="InheritanceDonationsOnPaperSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:InheritanceDonationOnPaperEntirePossessionTestatorPartner" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperCurrentInterestPaid" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperDeed" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperDonationValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperInterestActuallyPaid" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperInterestNotPaid" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperInterestPercentage" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperReceiverDonationDateOfBirth" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperReceiverDonationIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperReceiverDonationInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperReceiverDonationPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperReceiverDonationSurname" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperSingleOrCompoundInterest" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperTestatorPartnerPart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceDonationsOnPaperTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_InheritanceMortgagesSpecification" name="InheritanceMortgagesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesBankAccountNumberMortgage" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesEntirePossessionTestatorPartner" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesLifeAccidentInsuranceInstitutionName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesLifeAccidentInsuranceMortageAmount" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesLifeAccidentInsuranceMortgagePolicyNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesMortgageAmount" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesMortgageLifeAccidentInsurance" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesMortgageNet" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesTestatorPartnerPart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceMortgagesTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_InheritanceNotYetDividedLegacySpecification" name="InheritanceNotYetDividedLegacySpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:InheritanceNotYetDividedLegacyDateOfBirth" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceNotYetDividedLegacyEntirePossessionTestatorPartner" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceNotYetDividedLegacyInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceNotYetDividedLegacyPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceNotYetDividedLegacySurname" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceNotYetDividedLegacyTestatorIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceNotYetDividedLegacyTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceNotYetDividedLegacyTestatorPartnerPart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceNotYetDividedLegacyTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceNotYetDividedLegacyValueLegacy" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_InheritancePossessionsOtherSpecification" name="InheritancePossessionsOtherSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:InheritancePossessionsOtherDescription" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePossessionsOtherEntirePossessionTestatorPartner" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePossessionsOtherTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePossessionsOtherTestatorPartnerPart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePossessionsOtherTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePossessionsOtherValue" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_InheritancePreviousSpecification" name="InheritancePreviousSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:InheritancePreviousBeneficiaryDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePreviousBeneficiaryIdentificationNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePreviousBeneficiaryInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePreviousBeneficiaryInstitutionName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePreviousBeneficiaryPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePreviousBeneficiarySurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritancePreviousObtainingValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:WillAuthorDeceasedDate" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:WillAuthorInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:WillAuthorPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:WillAuthorSurname" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_InheritanceReceivablesSpecification" name="InheritanceReceivablesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:InheritanceReceivablesAfterReducingFactorsValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceReceivablesDescription" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceReceivablesEntirePossessionTestatorPartner" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceReceivablesInterestPercentage" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceReceivablesTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceReceivablesTestatorPartnerPart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceReceivablesTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceReceivablesValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ReceivableImmidiatelyCollectableIndication" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ReceivableSingleOrCompoundInterest" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_InheritanceStockAccountsSpecification" name="InheritanceStockAccountsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:InheritanceStockAccountsAfterReducingFactorsValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceStockAccountsBalanceOnDeceasedDate" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceStockAccountsBankAccountNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceStockAccountsEntirePossessionTestatorPartner" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceStockAccountsTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceStockAccountsTestatorPartnerPart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:InheritanceStockAccountsTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_LegaciesSpecification" name="LegaciesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:LegacyAtTheExpenseOfReceiver" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LegacyDescription" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LegacyFreeFromRightIndication" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LegacyPersonIdentificationNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LegacyValue" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_LifeAccidentInsuranceSpecification" name="LifeAccidentInsuranceSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:DeceasedMentionedAsInsured" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LifeAccidentInsuranceBenefitInsuranceAmount" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LifeAccidentInsuranceBenefitInsuranceReceiverCompanyName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LifeAccidentInsuranceBenefitInsuranceReceiverDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LifeAccidentInsuranceBenefitInsuranceReceiverIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LifeAccidentInsuranceBenefitInsuranceReceiverInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LifeAccidentInsuranceBenefitInsuranceReceiverPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LifeAccidentInsuranceBenefitInsuranceReceiverSurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LifeAccidentInsuranceInsuranceCompanyName" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:LifeAccidentInsuranceLifeInsurancePolicyNumber" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_MandatoryDeliveryPostponedDeliverySpecification" name="MandatoryDeliveryPostponedDeliverySpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:MandatoryDeliveryPostponedDeliveryCapitalComponentDescription" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MandatoryDeliveryPostponedDeliveryCapitalComponentPostponedMandatoryDeliveryValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MandatoryDeliveryPostponedDeliveryRightfulClaimantDateOfBirth" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MandatoryDeliveryPostponedDeliveryRightfulClaimantIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MandatoryDeliveryPostponedDeliveryRightfulClaimantInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MandatoryDeliveryPostponedDeliveryRightfulClaimantPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MandatoryDeliveryPostponedDeliveryRightfulClaimantSurname" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_MovablePropertySpecification" name="MovablePropertySpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:MovablePropertyAfterReducingFactorsValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MovablePropertyDescription" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MovablePropertyEntirePossessionTestatorPartner" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MovablePropertyTestatorPartnerCommonPart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MovablePropertyTestatorPartnerPart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MovablePropertyTestatorPrivatePart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MovablePropertyValue" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_NotaryAddressPresentation" name="NotaryAddressPresentation" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:choice minOccurs="1" maxOccurs="1">
+              <xs:element ref="bd-t:AddressAbroadPresentation" minOccurs="0" maxOccurs="1" />
+              <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+            </xs:choice>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_NotaryDomesticAddressPresentation" name="NotaryDomesticAddressPresentation" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_OwnHouseAddressPresentation" name="OwnHouseAddressPresentation" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:choice minOccurs="1" maxOccurs="1">
+              <xs:element ref="bd-t:AddressAbroadPresentation" minOccurs="0" maxOccurs="1" />
+              <xs:element ref="bd-t:AddressPresentation" minOccurs="0" maxOccurs="1" />
+            </xs:choice>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_PersonSpecification" name="PersonSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:GiftPeriodicalBenefitIdentificationNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PersonWhoseLifeDateOfBirth" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_PostponementDeclarationChangesSpecification" name="PostponementDeclarationChangesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:FinancialYearEnd" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:FinancialYearStart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PostponementCauseChangeCode" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PostponementCauseChangeDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PostponementCauseChangeReference" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PostponementChangeFirstResultDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PostponementChangeResultCode" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PostponementChangeResultExplanation" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PostponementChangeResultExplanationCode" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PostponementChangeSecondResultDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerSurname" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_PostponementDeclarationSchemeSpecification" name="PostponementDeclarationSchemeSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:DeclarationsDeliveryPeriodicCumulativeNumberOfItems" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:DeclarationsDeliveryPeriodicCumulativePercentage" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:DeclarationsDeliveryPeriodicName" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_PostponementDeclarationSpecification" name="PostponementDeclarationSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:FinancialYearEnd" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:FinancialYearStart" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PostponementReceiptDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxName" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerSurname" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxReturnReminder" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxReturnReprimand" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:UltimateReactionDate" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_PostponementSpecification" name="PostponementSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:FinancialYearEnd" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:FinancialYearStart" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:MotivationCodeTaxConsultant" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PostponementRequestType" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SpecialMotivationPostponementTaxConsultant" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxName" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerIdentificationNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerSurname" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_PrivateCompanyPublicCompanyPeriodicPaymentSpecification" name="PrivateCompanyPublicCompanyPeriodicPaymentSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanyIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanyName" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanyOwnerRelativesByBloodOrMarriage" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-t-ext1:PrivateCompanyPublicCompanyShareholderSpecification" minOccurs="0" maxOccurs="50" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_PrivateCompanyPublicCompanyShareholderSpecification" name="PrivateCompanyPublicCompanyShareholderSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanyShareholderDateOfBirth" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanyShareholderIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanyShareholderInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanyShareholderPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanyShareholderSurname" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanyShareRiseExpirationPensionRights" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanySharesAcquisitionPrice" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:PrivateCompanyPublicCompanySharesValue" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_ResidenceClauseSpecification" name="ResidenceClauseSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:ResidenceClauseCapitalComponentDescription" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ResidenceClauseCapitalComponentReceiverInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ResidenceClauseCapitalComponentValue" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ResidenceClauseCapitalComponentValuePayedFor" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ResidenceClauseReceiverDateOfBirth" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ResidenceClauseReceiverIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ResidenceClauseReceiverPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:ResidenceClauseReceiverSurname" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_RetirementBenefitsSpecification" name="RetirementBenefitsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:RetirementBenefitsBenefitPerYearAmount" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsBenefitTermination" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsBenefitTerminationDate" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsIncreaseInsuranceValueAmount" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsPolicyNumber" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsReceiverDateOfBirth" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsReceiverIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsReceiverInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsReceiverPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsReceiverSurname" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsRedemption" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:RetirementBenefitsStartDate" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_SignatoryDataPresentation" name="SignatoryDataPresentation" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:NotaryNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i:PlaceOfResidenceNL" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:SignatoryTaxConsultantNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerInitials" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerPrefix" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TaxpayerSurname" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_TaxConsultantAddressPresentation" name="TaxConsultantAddressPresentation" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i:HouseNumberAddition" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i:HouseNumberNL" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i:PlaceOfResidenceNL" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i:PostalCodeNL" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i:StreetNameNL" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element id="bd-t-ext1_TrustCapitalSpecification" name="TrustCapitalSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="sbr:placeholder">
+          <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="bd-i-ext1:TrustCapitalIdentificationNumber" minOccurs="0" maxOccurs="1" />
+            <xs:element ref="bd-i:TrustCapitalName" minOccurs="1" maxOccurs="1" />
+            <xs:element ref="bd-i-ext1:TrustCapitalValue" minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

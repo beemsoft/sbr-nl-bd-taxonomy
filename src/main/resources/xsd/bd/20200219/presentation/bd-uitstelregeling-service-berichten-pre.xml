@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+Intellectual Property of the State of the Netherlands
+Architecture: nt14
+Version: 20200219
+Release date: Tue, 10 Dec 2019 07:50:25 GMT
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <link:roleRef xlink:href="./bd-linkroles-pre-ext1.xsd#bd_03f958783f0345fab0e4458fa08217a6" roleURI="urn:bd:linkrole:bd-lr-pre-ext1_uitstelregeling-service-berichten" xlink:type="simple" />
+  <link:presentationLink xlink:role="urn:bd:linkrole:bd-lr-pre-ext1_uitstelregeling-service-berichten" xlink:type="extended">
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_PostponementTaxReturnIncomeTaxAndCorporationTaxTaxConsultantsTitle" xlink:label="bd_bd-abstr-ext1_PostponementTaxReturnIncomeTaxAndCorporationTaxTaxConsultantsTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/presentation/bd-abstracts.xsd#bd-abstr_MessageDetailsTitle" xlink:label="bd_bd-abstr_MessageDetailsTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DateCreationMessage" xlink:label="bd_bd-i-ext1_DateCreationMessage_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DateCreationSerialNumberMessage" xlink:label="bd_bd-i-ext1_DateCreationSerialNumberMessage_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-tuples-ext1.xsd#bd-t-ext1_PostponementDeclarationSpecification" xlink:label="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_TaxReturnReprimand" xlink:label="bd_bd-i-ext1_TaxReturnReprimand_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_TaxName" xlink:label="bd_bd-i-ext1_TaxName_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_PostponementReceiptDate" xlink:label="bd_bd-i-ext1_PostponementReceiptDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_TaxpayerIdentificationNumber" xlink:label="bd_bd-i-ext1_TaxpayerIdentificationNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_UltimateReactionDate" xlink:label="bd_bd-i-ext1_UltimateReactionDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_FinancialYearStart" xlink:label="bd_bd-i-ext1_FinancialYearStart_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_FinancialYearEnd" xlink:label="bd_bd-i-ext1_FinancialYearEnd_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_TaxReturnReminder" xlink:label="bd_bd-i-ext1_TaxReturnReminder_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_TaxpayerSurname" xlink:label="bd_bd-i-ext1_TaxpayerSurname_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-tuples-ext1.xsd#bd-t-ext1_PostponementDeclarationSchemeSpecification" xlink:label="bd_bd-t-ext1_PostponementDeclarationSchemeSpecification_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarationsDeliveryPeriodicName" xlink:label="bd_bd-i-ext1_DeclarationsDeliveryPeriodicName_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarationsDeliveryPeriodicCumulativePercentage" xlink:label="bd_bd-i-ext1_DeclarationsDeliveryPeriodicCumulativePercentage_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarationsDeliveryPeriodicCumulativeNumberOfItems" xlink:label="bd_bd-i-ext1_DeclarationsDeliveryPeriodicCumulativeNumberOfItems_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_PostponementDeclarationWarningTitle" xlink:label="bd_bd-abstr-ext1_PostponementDeclarationWarningTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_CentralProcessingAppointPostsNumberOfItems" xlink:label="bd_bd-i-ext1_CentralProcessingAppointPostsNumberOfItems_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_AppointPostsDeliveryDate" xlink:label="bd_bd-i-ext1_AppointPostsDeliveryDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_BacklogStatementDate" xlink:label="bd_bd-i-ext1_BacklogStatementDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarationsReceivedTooLittleNumberOfItems" xlink:label="bd_bd-i-ext1_DeclarationsReceivedTooLittleNumberOfItems_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-tuples-ext1.xsd#bd-t-ext1_PostponementDeclarationChangesSpecification" xlink:label="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_PostponementChangeResultExplanation" xlink:label="bd_bd-i-ext1_PostponementChangeResultExplanation_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_PostponementChangeResultExplanationCode" xlink:label="bd_bd-i-ext1_PostponementChangeResultExplanationCode_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_PostponementCauseChangeCode" xlink:label="bd_bd-i-ext1_PostponementCauseChangeCode_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_PostponementChangeFirstResultDate" xlink:label="bd_bd-i-ext1_PostponementChangeFirstResultDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_PostponementCauseChangeReference" xlink:label="bd_bd-i-ext1_PostponementCauseChangeReference_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_PostponementChangeSecondResultDate" xlink:label="bd_bd-i-ext1_PostponementChangeSecondResultDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_PostponementChangeResultCode" xlink:label="bd_bd-i-ext1_PostponementChangeResultCode_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_PostponementCauseChangeDate" xlink:label="bd_bd-i-ext1_PostponementCauseChangeDate_loc" xlink:type="locator" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PostponementTaxReturnIncomeTaxAndCorporationTaxTaxConsultantsTitle_loc" xlink:to="bd_bd-abstr_MessageDetailsTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_MessageDetailsTitle_loc" xlink:to="bd_bd-i-ext1_DateCreationMessage_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_MessageDetailsTitle_loc" xlink:to="bd_bd-i-ext1_DateCreationSerialNumberMessage_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PostponementTaxReturnIncomeTaxAndCorporationTaxTaxConsultantsTitle_loc" xlink:to="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:to="bd_bd-i-ext1_TaxReturnReprimand_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="12" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:to="bd_bd-i-ext1_TaxName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:to="bd_bd-i-ext1_PostponementReceiptDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="8" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:to="bd_bd-i-ext1_TaxpayerIdentificationNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:to="bd_bd-i-ext1_UltimateReactionDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:to="bd_bd-i-ext1_FinancialYearStart_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:to="bd_bd-i-ext1_FinancialYearEnd_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:to="bd_bd-i-ext1_TaxReturnReminder_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="11" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSpecification_loc" xlink:to="bd_bd-i-ext1_TaxpayerSurname_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PostponementTaxReturnIncomeTaxAndCorporationTaxTaxConsultantsTitle_loc" xlink:to="bd_bd-t-ext1_PostponementDeclarationSchemeSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSchemeSpecification_loc" xlink:to="bd_bd-i-ext1_DeclarationsDeliveryPeriodicName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSchemeSpecification_loc" xlink:to="bd_bd-i-ext1_DeclarationsDeliveryPeriodicCumulativePercentage_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationSchemeSpecification_loc" xlink:to="bd_bd-i-ext1_DeclarationsDeliveryPeriodicCumulativeNumberOfItems_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PostponementTaxReturnIncomeTaxAndCorporationTaxTaxConsultantsTitle_loc" xlink:to="bd_bd-abstr-ext1_PostponementDeclarationWarningTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PostponementDeclarationWarningTitle_loc" xlink:to="bd_bd-i-ext1_CentralProcessingAppointPostsNumberOfItems_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PostponementDeclarationWarningTitle_loc" xlink:to="bd_bd-i-ext1_AppointPostsDeliveryDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PostponementDeclarationWarningTitle_loc" xlink:to="bd_bd-i-ext1_BacklogStatementDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PostponementDeclarationWarningTitle_loc" xlink:to="bd_bd-i-ext1_DeclarationsReceivedTooLittleNumberOfItems_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PostponementTaxReturnIncomeTaxAndCorporationTaxTaxConsultantsTitle_loc" xlink:to="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_PostponementChangeResultExplanation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="13" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_PostponementChangeResultExplanationCode_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="12" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_PostponementCauseChangeCode_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="8" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_PostponementChangeFirstResultDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="9" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_TaxName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_TaxpayerIdentificationNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_PostponementCauseChangeReference_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_PostponementChangeSecondResultDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="10" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_TaxpayerSurname_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_FinancialYearStart_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_PostponementChangeResultCode_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="11" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_FinancialYearEnd_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PostponementDeclarationChangesSpecification_loc" xlink:to="bd_bd-i-ext1_PostponementCauseChangeDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc" />
+  </link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+Intellectual Property of the State of the Netherlands
+Architecture: nt14
+Version: 20191211
+Release date: Fri, 27 Sep 2019 08:21:35 GMT
+-->
+<xs:schema id="bd-rpt-ihz" targetNamespace="http://www.nltaxonomie.nl/nt14/bd/20191211/entrypoints/bd-rpt-ihz-aangifte-2019" xmlns:bd-rpt-ihz="http://www.nltaxonomie.nl/nt14/bd/20191211/entrypoints/bd-rpt-ihz-aangifte-2019" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:href="../presentation/bd-ihz-buitenlandse-resultaten-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../presentation/bd-ihz-balans-resultatenrekening-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../presentation/bd-ihz-algemeen-deel-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../presentation/bd-ihz-agrarische-activiteiten-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../presentation/bd-ihz-toelichting-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../presentation/bd-ihz-voorblad-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../presentation/bd-ihz-aangifte-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../presentation/bd-ihz-investeringsaftrek-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../presentation/bd-ihz-winstberekening-toelichting-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../presentation/bd-ihz-winst-uit-zeescheepvaart-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../presentation/bd-rpt-ihz-aangifte-2019-generic-linkrole-order.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../validation/bd-rpt-ihz-aangifte-2019-hypercube-dimension-def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../validation/bd-dimension_domain-def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../validation/bd-domain-member-def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+      <link:linkbaseRef xlink:href="../validation/bd-rpt-ihz-aangifte-2019-lineitems-def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

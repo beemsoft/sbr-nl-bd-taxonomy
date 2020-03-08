@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+Intellectual Property of the State of the Netherlands
+Architecture: nt14
+Version: 20200219
+Release date: Tue, 10 Dec 2019 07:50:24 GMT
+-->
+<xs:schema id="bd-codes-ext1" targetNamespace="http://www.nltaxonomie.nl/nt14/bd/20200219/dictionary/bd-codes-ext1" xmlns:bd-codes-ext1="http://www.nltaxonomie.nl/nt14/bd/20200219/dictionary/bd-codes-ext1" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:href="./bd-codes-ext1-generic-lab-nl.xml" xlink:role="documentation" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple" />
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xs:complexType name="benefitTerminationItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="bd_b9f5c4d6795f420b833a60c4c1c5fd2a" value="1" />
+        <xs:enumeration id="bd_f94cf948665a4365a619099f33cdfb5b" value="2" />
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="donorRelationCodeItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="bd_77ce774df869403d926c0c4d6d1656ea" value="100" />
+        <xs:enumeration id="bd_c8bc4a7d0ab140cd9099403c1ba32227" value="101" />
+        <xs:enumeration id="bd_67ee4d07930e46da8971c9402e6d2be6" value="102" />
+        <xs:enumeration id="bd_8df164871eb94b3b81c21516ffd18306" value="120" />
+        <xs:enumeration id="bd_96d49a68eb7f4555887efc8997f1f9a6" value="121" />
+        <xs:enumeration id="bd_700c543a7af2442489ba3149e64abc80" value="122" />
+        <xs:enumeration id="bd_130d56ebfd2a4c1f8fab425a06331772" value="125" />
+        <xs:enumeration id="bd_ac0229a55cd54219b9924d37a82d13e6" value="199" />
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="giftBenefitPeriodItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="bd_0fdea2f914e5406581e9f2ef9d9cf853" value="jaar" />
+        <xs:enumeration id="bd_b1c8735b5fe04f68b6358bf2573c7f2d" value="kwartaal" />
+        <xs:enumeration id="bd_2c78143b5f9d49029499be3caad1bcc3" value="maand" />
+        <xs:enumeration id="bd_159e3811508b4c389716fb1714bf0482" value="week" />
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="interestItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="bd_b5dc007a49f943d69b26360bcbc1eece" value="enkelvoudige rente" />
+        <xs:enumeration id="bd_384eb862b2294029b8b238750ed4ffb7" value="Enkelvoudige rente" />
+        <xs:enumeration id="bd_e5e23486f7ca4fc1b939f63505213d61" value="samengestelde rente" />
+        <xs:enumeration id="bd_fd940c91f8334d5993fbd71e766af1f6" value="Samengestelde rente" />
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="legalFormItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="bd_7f2baaba4baa402587619b0d8987b086" value="bv" />
+        <xs:enumeration id="bd_de74c106edbe4a818c3631e88677b0e7" value="cv" />
+        <xs:enumeration id="bd_bfbcd7ad9ed743fd94482c00bfd76ab8" value="eenmanszaak" />
+        <xs:enumeration id="bd_5ac93c8fabf64cc3b7e03c72a1791866" value="maatschap" />
+        <xs:enumeration id="bd_7b6c1729f81d45d0845b88686b6a845d" value="nv" />
+        <xs:enumeration id="bd_2f73fc8d6de149d79d7a1014dafef714" value="overig" />
+        <xs:enumeration id="bd_ceafea2672b54e6e8362f8de18c3ea5a" value="vof" />
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="motivationCodeItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="bd_e0c3bfddf3ab41368e9b843279b734a1" value="01" />
+        <xs:enumeration id="bd_d5dfdd201b434510ba5c74245e20658d" value="99" />
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="movablePropertyItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="bd_7a5dceca784d40369e4f9d62bf9caa08" value="Inboedel" />
+        <xs:enumeration id="bd_38209c7eeb064a8885fd44dc0b8faea0" value="Kunst en antiek" />
+        <xs:enumeration id="bd_65b327a690a74af8a902a88b7c2b4d1a" value="Overig" />
+        <xs:enumeration id="bd_92c7f31e5c3247fbb7a95c8d5dad5058" value="Vervoersmiddel" />
+        <xs:enumeration id="bd_f8c0b643d4a34cf8902ec1c6a6d9724f" value="Vervoersmiddelen" />
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="postponementCodeItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="bd_62ba384e5a1b46a89c4411848683d752" value="1" />
+        <xs:enumeration id="bd_dbbfff54e7464543b8a751c7cc0a0a9e" value="10" />
+        <xs:enumeration id="bd_441c033d775c48bf9d4863904d95b515" value="2" />
+        <xs:enumeration id="bd_6d557388a6724cb1b11c842d869f7c00" value="20" />
+        <xs:enumeration id="bd_af57ecb4441a46fb8e05466e3007f725" value="3" />
+        <xs:enumeration id="bd_a85afda4a19043debcbbc615ace33135" value="4" />
+        <xs:enumeration id="bd_4bb1359f857f417ab4358be899d8c8e6" value="90" />
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="relationCodeItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="bd_9a5774251fef42a79e8f6d183964c8c1" value="01" />
+        <xs:enumeration id="bd_6d617e6298894b1fab256318904ec50f" value="02" />
+        <xs:enumeration id="bd_e7d12c59e07740f7a4e9b85a20dd8b6f" value="03H" />
+        <xs:enumeration id="bd_0b79d84abe2d410b97f9b7245e1e7c45" value="05" />
+        <xs:enumeration id="bd_f46e2e5da8ef40c3ac3c8ddbc53d93c5" value="06" />
+        <xs:enumeration id="bd_cae9869ead56416dadd1b95664877633" value="065" />
+        <xs:enumeration id="bd_1012f2fcfcb74c94b6ad9c4ce234cdf1" value="065H" />
+        <xs:enumeration id="bd_427f861a9b964784be9e36de1dbd3408" value="07" />
+        <xs:enumeration id="bd_f39124e3a70146b2b8ee17a459ffad87" value="09O" />
+        <xs:enumeration id="bd_615969bcf8f74982bd8e563a0b2d4992" value="10" />
+        <xs:enumeration id="bd_70128571b3024068b2917c4c76c27c72" value="11H" />
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="taxNameItemType">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:stringItemType">
+        <xs:enumeration id="bd_302ff3dd78134ce887720f2ba0e5a419" value="0" />
+        <xs:enumeration id="bd_292ce7269e3d4df0862576ece0744ea1" value="1" />
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

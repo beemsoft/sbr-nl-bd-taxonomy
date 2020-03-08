@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+Intellectual Property of the State of the Netherlands
+Architecture: nt14
+Version: 20200219
+Release date: Tue, 10 Dec 2019 07:50:25 GMT
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <link:roleRef xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" />
+  <link:roleRef xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple" />
+  <link:arcroleRef xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple" />
+  <gen:link xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="extended">
+    <label:label id="bd_c8dc24a3c39541ab9f9de29c9ce614e9" xlink:label="bd_c8dc24a3c39541ab9f9de29c9ce614e9_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Kind/Stiefkind/Pleegkind</label:label>
+    <label:label id="bd_b626e42669e845d896b825ef526bc04d" xlink:label="bd_b626e42669e845d896b825ef526bc04d_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Kleinkind</label:label>
+    <label:label id="bd_eed0ed1da8d9472599493b63d1da6fb2" xlink:label="bd_eed0ed1da8d9472599493b63d1da6fb2_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Samenwoner zonder notariële akte</label:label>
+    <label:label id="bd_39f392fa7600483f8f4557e39eabdeae" xlink:label="bd_39f392fa7600483f8f4557e39eabdeae_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Gehandicapt kind</label:label>
+    <label:label id="bd_1e0c8255a17e47c8bbf66f0592f96773" xlink:label="bd_1e0c8255a17e47c8bbf66f0592f96773_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Achterkleinkind</label:label>
+    <label:label id="bd_f5b7d9c345b14e5eaf9c33069c4e0b34" xlink:label="bd_f5b7d9c345b14e5eaf9c33069c4e0b34_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Anders</label:label>
+    <label:label id="bd_d7e1885e9089477192d2f3290311f166" xlink:label="bd_d7e1885e9089477192d2f3290311f166_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">ANBI/SBBI</label:label>
+    <label:label id="bd_5664e2a71bfd4ea98fe0fcb1c3275dd0" xlink:label="bd_5664e2a71bfd4ea98fe0fcb1c3275dd0_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Samenwoner met notariële akte</label:label>
+    <label:label id="bd_1e872f02541547038cdc2e1ebd31905e" xlink:label="bd_1e872f02541547038cdc2e1ebd31905e_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Echtgenoot of geregistreerd partner man</label:label>
+    <label:label id="bd_49920ffcde984ef5b3f9d7b467198ab4" xlink:label="bd_49920ffcde984ef5b3f9d7b467198ab4_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Echtgenoot of geregistreerd partner vrouw</label:label>
+    <label:label id="bd_df4565c7c3384ceb961f28140f40498a" xlink:label="bd_df4565c7c3384ceb961f28140f40498a_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Ouder</label:label>
+    <label:label id="bd_fc10135da56f45d1a89bbe007eba11b9" xlink:label="bd_fc10135da56f45d1a89bbe007eba11b9_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Samengestelde rente</label:label>
+    <label:label id="bd_ac3e048228464eacaa60fc8407789070" xlink:label="bd_ac3e048228464eacaa60fc8407789070_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Enkelvoudige rente</label:label>
+    <label:label id="bd_56fc251830cb4cebbf87f9c0b2b505da" xlink:label="bd_56fc251830cb4cebbf87f9c0b2b505da_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Overige onroerende zaken</label:label>
+    <label:label id="bd_8d21b77ffbe4492483fcc1e76ca156f8" xlink:label="bd_8d21b77ffbe4492483fcc1e76ca156f8_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Vervoersmiddelen</label:label>
+    <label:label id="bd_e808be492160455a8c83418647bded8c" xlink:label="bd_e808be492160455a8c83418647bded8c_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Kunst en antiek</label:label>
+    <label:label id="bd_d8bcfcbd1d1d42b3bd5bc2d940b134ac" xlink:label="bd_d8bcfcbd1d1d42b3bd5bc2d940b134ac_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Vervoersmiddel</label:label>
+    <label:label id="bd_a20fe7851e3649f292a3b5ed1102f96a" xlink:label="bd_a20fe7851e3649f292a3b5ed1102f96a_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Inboedel</label:label>
+    <label:label id="bd_d41c17e448ea4ae4aad3771e45c875a3" xlink:label="bd_d41c17e448ea4ae4aad3771e45c875a3_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Naamloze vennootschap</label:label>
+    <label:label id="bd_3553c36acda248f89984a7385ad654df" xlink:label="bd_3553c36acda248f89984a7385ad654df_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Maatschap</label:label>
+    <label:label id="bd_bba180a3c5bf48f5bdb6750700f9f7fd" xlink:label="bd_bba180a3c5bf48f5bdb6750700f9f7fd_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Besloten vennootschap met beperkte aansprakelijkheid</label:label>
+    <label:label id="bd_c0550f3d8ce449139ea0ddffbce70956" xlink:label="bd_c0550f3d8ce449139ea0ddffbce70956_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Overige rechtsvormen</label:label>
+    <label:label id="bd_be99fb19883c4e92b8eaa716856902c9" xlink:label="bd_be99fb19883c4e92b8eaa716856902c9_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Vennootschap onder firma</label:label>
+    <label:label id="bd_62500f3b6eb841b9a7e0a1319e41f9d5" xlink:label="bd_62500f3b6eb841b9a7e0a1319e41f9d5_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Commanditaire vennootschap</label:label>
+    <label:label id="bd_06279ccbb4b44605a59048c1dce015c9" xlink:label="bd_06279ccbb4b44605a59048c1dce015c9_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Eenmanszaak</label:label>
+    <label:label id="bd_7b6c730ef0a24fb7bc8b3ed701ed1607" xlink:label="bd_7b6c730ef0a24fb7bc8b3ed701ed1607_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Datum</label:label>
+    <label:label id="bd_4288f42fd5e544d08c94aa36cc2825f3" xlink:label="bd_4288f42fd5e544d08c94aa36cc2825f3_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Overlijden</label:label>
+    <label:label id="bd_f03545a929f144e3a786d6f8132bd089" xlink:label="bd_f03545a929f144e3a786d6f8132bd089_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Vrije tekst</label:label>
+    <label:label id="bd_25e887af9aab4883bf732327c9eb56cb" xlink:label="bd_25e887af9aab4883bf732327c9eb56cb_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Maatwerk bijzonder uitstel</label:label>
+    <label:label id="bd_787b58c9eed7426e80e3fbb95350fdda" xlink:label="bd_787b58c9eed7426e80e3fbb95350fdda_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Individueel uitstel becon</label:label>
+    <label:label id="bd_ffaa928636ef4f9fa2f15f6439f754c8" xlink:label="bd_ffaa928636ef4f9fa2f15f6439f754c8_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Afmelden uitstel</label:label>
+    <label:label id="bd_588ebd9933bb4ccfa4ec11153f901cec" xlink:label="bd_588ebd9933bb4ccfa4ec11153f901cec_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Aanvullend uitstel</label:label>
+    <label:label id="bd_9e5add33dbf242efb375e634baed0715" xlink:label="bd_9e5add33dbf242efb375e634baed0715_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Verzoek incidenteel uitstel becon</label:label>
+    <label:label id="bd_1ef7ffca9e334637891a4d5d597c862a" xlink:label="bd_1ef7ffca9e334637891a4d5d597c862a_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Uitstelverzoek beconregeling</label:label>
+    <label:label id="bd_8254b94f0fca470b99eb8591410ac14c" xlink:label="bd_8254b94f0fca470b99eb8591410ac14c_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Initieel uitstel</label:label>
+    <label:label id="bd_d6d4032cd99b41069957bc21b187f988" xlink:label="bd_d6d4032cd99b41069957bc21b187f988_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Verzoek bijzonder uitstel becon</label:label>
+    <label:label id="bd_2f52a61990374d21842de42591fa011e" xlink:label="bd_2f52a61990374d21842de42591fa011e_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">IBPV</label:label>
+    <label:label id="bd_989da0885ff94b7899975720a3611fd0" xlink:label="bd_989da0885ff94b7899975720a3611fd0_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">VPB</label:label>
+    <label:label id="bd_aeaef649ae2b471c92e9d410b9f7afe3" xlink:label="bd_aeaef649ae2b471c92e9d410b9f7afe3_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Kind</label:label>
+    <label:label id="bd_d53ff274611241638dc4dd273a1bb3b4" xlink:label="bd_d53ff274611241638dc4dd273a1bb3b4_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Ex-partner</label:label>
+    <label:label id="bd_fb08a135235c471eb138fdd6ed91c401" xlink:label="bd_fb08a135235c471eb138fdd6ed91c401_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Stiefkind</label:label>
+    <label:label id="bd_ec96527715364c9e9aff63294dae2cc8" xlink:label="bd_ec96527715364c9e9aff63294dae2cc8_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Samenwonend</label:label>
+    <label:label id="bd_4cfd481e4eb94cd38b4f43d717318b0e" xlink:label="bd_4cfd481e4eb94cd38b4f43d717318b0e_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Overig</label:label>
+    <label:label id="bd_06a415d0dad3454c81312ebd88e37a8a" xlink:label="bd_06a415d0dad3454c81312ebd88e37a8a_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Partner</label:label>
+    <label:label id="bd_aeef8ece3fd741a59d0cf43a8ed3cfce" xlink:label="bd_aeef8ece3fd741a59d0cf43a8ed3cfce_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Pleegkind</label:label>
+    <label:label id="bd_c955722953594168ae8cf87d4d21bae5" xlink:label="bd_c955722953594168ae8cf87d4d21bae5_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Maand</label:label>
+    <label:label id="bd_e432a40e7ad1461590ee2afc68718d25" xlink:label="bd_e432a40e7ad1461590ee2afc68718d25_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Week</label:label>
+    <label:label id="bd_8f210e9e77384dd084be2c2d485ab5f3" xlink:label="bd_8f210e9e77384dd084be2c2d485ab5f3_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Jaar</label:label>
+    <label:label id="bd_b405041724984ec3aa23c0242da6d4b2" xlink:label="bd_b405041724984ec3aa23c0242da6d4b2_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource">Kwartaal</label:label>
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_e7d12c59e07740f7a4e9b85a20dd8b6f" xlink:label="bd_e7d12c59e07740f7a4e9b85a20dd8b6f_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_0b79d84abe2d410b97f9b7245e1e7c45" xlink:label="bd_0b79d84abe2d410b97f9b7245e1e7c45_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_cae9869ead56416dadd1b95664877633" xlink:label="bd_cae9869ead56416dadd1b95664877633_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_427f861a9b964784be9e36de1dbd3408" xlink:label="bd_427f861a9b964784be9e36de1dbd3408_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_f46e2e5da8ef40c3ac3c8ddbc53d93c5" xlink:label="bd_f46e2e5da8ef40c3ac3c8ddbc53d93c5_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_70128571b3024068b2917c4c76c27c72" xlink:label="bd_70128571b3024068b2917c4c76c27c72_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_615969bcf8f74982bd8e563a0b2d4992" xlink:label="bd_615969bcf8f74982bd8e563a0b2d4992_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_1012f2fcfcb74c94b6ad9c4ce234cdf1" xlink:label="bd_1012f2fcfcb74c94b6ad9c4ce234cdf1_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_6d617e6298894b1fab256318904ec50f" xlink:label="bd_6d617e6298894b1fab256318904ec50f_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_9a5774251fef42a79e8f6d183964c8c1" xlink:label="bd_9a5774251fef42a79e8f6d183964c8c1_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_f39124e3a70146b2b8ee17a459ffad87" xlink:label="bd_f39124e3a70146b2b8ee17a459ffad87_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_e5e23486f7ca4fc1b939f63505213d61" xlink:label="bd_e5e23486f7ca4fc1b939f63505213d61_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_384eb862b2294029b8b238750ed4ffb7" xlink:label="bd_384eb862b2294029b8b238750ed4ffb7_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_fd940c91f8334d5993fbd71e766af1f6" xlink:label="bd_fd940c91f8334d5993fbd71e766af1f6_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_b5dc007a49f943d69b26360bcbc1eece" xlink:label="bd_b5dc007a49f943d69b26360bcbc1eece_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_65b327a690a74af8a902a88b7c2b4d1a" xlink:label="bd_65b327a690a74af8a902a88b7c2b4d1a_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_f8c0b643d4a34cf8902ec1c6a6d9724f" xlink:label="bd_f8c0b643d4a34cf8902ec1c6a6d9724f_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_38209c7eeb064a8885fd44dc0b8faea0" xlink:label="bd_38209c7eeb064a8885fd44dc0b8faea0_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_92c7f31e5c3247fbb7a95c8d5dad5058" xlink:label="bd_92c7f31e5c3247fbb7a95c8d5dad5058_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_7a5dceca784d40369e4f9d62bf9caa08" xlink:label="bd_7a5dceca784d40369e4f9d62bf9caa08_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_7b6c1729f81d45d0845b88686b6a845d" xlink:label="bd_7b6c1729f81d45d0845b88686b6a845d_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_5ac93c8fabf64cc3b7e03c72a1791866" xlink:label="bd_5ac93c8fabf64cc3b7e03c72a1791866_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_7f2baaba4baa402587619b0d8987b086" xlink:label="bd_7f2baaba4baa402587619b0d8987b086_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_2f73fc8d6de149d79d7a1014dafef714" xlink:label="bd_2f73fc8d6de149d79d7a1014dafef714_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_ceafea2672b54e6e8362f8de18c3ea5a" xlink:label="bd_ceafea2672b54e6e8362f8de18c3ea5a_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_de74c106edbe4a818c3631e88677b0e7" xlink:label="bd_de74c106edbe4a818c3631e88677b0e7_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_bfbcd7ad9ed743fd94482c00bfd76ab8" xlink:label="bd_bfbcd7ad9ed743fd94482c00bfd76ab8_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_f94cf948665a4365a619099f33cdfb5b" xlink:label="bd_f94cf948665a4365a619099f33cdfb5b_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_b9f5c4d6795f420b833a60c4c1c5fd2a" xlink:label="bd_b9f5c4d6795f420b833a60c4c1c5fd2a_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_d5dfdd201b434510ba5c74245e20658d" xlink:label="bd_d5dfdd201b434510ba5c74245e20658d_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_e0c3bfddf3ab41368e9b843279b734a1" xlink:label="bd_e0c3bfddf3ab41368e9b843279b734a1_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_a85afda4a19043debcbbc615ace33135" xlink:label="bd_a85afda4a19043debcbbc615ace33135_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_4bb1359f857f417ab4358be899d8c8e6" xlink:label="bd_4bb1359f857f417ab4358be899d8c8e6_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_6d557388a6724cb1b11c842d869f7c00" xlink:label="bd_6d557388a6724cb1b11c842d869f7c00_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_af57ecb4441a46fb8e05466e3007f725" xlink:label="bd_af57ecb4441a46fb8e05466e3007f725_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_62ba384e5a1b46a89c4411848683d752" xlink:label="bd_62ba384e5a1b46a89c4411848683d752_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_dbbfff54e7464543b8a751c7cc0a0a9e" xlink:label="bd_dbbfff54e7464543b8a751c7cc0a0a9e_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_441c033d775c48bf9d4863904d95b515" xlink:label="bd_441c033d775c48bf9d4863904d95b515_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_292ce7269e3d4df0862576ece0744ea1" xlink:label="bd_292ce7269e3d4df0862576ece0744ea1_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_302ff3dd78134ce887720f2ba0e5a419" xlink:label="bd_302ff3dd78134ce887720f2ba0e5a419_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_8df164871eb94b3b81c21516ffd18306" xlink:label="bd_8df164871eb94b3b81c21516ffd18306_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_67ee4d07930e46da8971c9402e6d2be6" xlink:label="bd_67ee4d07930e46da8971c9402e6d2be6_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_96d49a68eb7f4555887efc8997f1f9a6" xlink:label="bd_96d49a68eb7f4555887efc8997f1f9a6_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_c8bc4a7d0ab140cd9099403c1ba32227" xlink:label="bd_c8bc4a7d0ab140cd9099403c1ba32227_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_ac0229a55cd54219b9924d37a82d13e6" xlink:label="bd_ac0229a55cd54219b9924d37a82d13e6_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_77ce774df869403d926c0c4d6d1656ea" xlink:label="bd_77ce774df869403d926c0c4d6d1656ea_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_700c543a7af2442489ba3149e64abc80" xlink:label="bd_700c543a7af2442489ba3149e64abc80_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_130d56ebfd2a4c1f8fab425a06331772" xlink:label="bd_130d56ebfd2a4c1f8fab425a06331772_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_2c78143b5f9d49029499be3caad1bcc3" xlink:label="bd_2c78143b5f9d49029499be3caad1bcc3_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_159e3811508b4c389716fb1714bf0482" xlink:label="bd_159e3811508b4c389716fb1714bf0482_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_0fdea2f914e5406581e9f2ef9d9cf853" xlink:label="bd_0fdea2f914e5406581e9f2ef9d9cf853_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-codes-ext1.xsd#bd_b1c8735b5fe04f68b6358bf2573c7f2d" xlink:label="bd_b1c8735b5fe04f68b6358bf2573c7f2d_loc" xlink:type="locator" />
+    <gen:arc xlink:from="bd_e7d12c59e07740f7a4e9b85a20dd8b6f_loc" xlink:to="bd_c8dc24a3c39541ab9f9de29c9ce614e9_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_0b79d84abe2d410b97f9b7245e1e7c45_loc" xlink:to="bd_b626e42669e845d896b825ef526bc04d_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_cae9869ead56416dadd1b95664877633_loc" xlink:to="bd_eed0ed1da8d9472599493b63d1da6fb2_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_427f861a9b964784be9e36de1dbd3408_loc" xlink:to="bd_39f392fa7600483f8f4557e39eabdeae_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_f46e2e5da8ef40c3ac3c8ddbc53d93c5_loc" xlink:to="bd_1e0c8255a17e47c8bbf66f0592f96773_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_70128571b3024068b2917c4c76c27c72_loc" xlink:to="bd_f5b7d9c345b14e5eaf9c33069c4e0b34_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_615969bcf8f74982bd8e563a0b2d4992_loc" xlink:to="bd_d7e1885e9089477192d2f3290311f166_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_1012f2fcfcb74c94b6ad9c4ce234cdf1_loc" xlink:to="bd_5664e2a71bfd4ea98fe0fcb1c3275dd0_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_6d617e6298894b1fab256318904ec50f_loc" xlink:to="bd_1e872f02541547038cdc2e1ebd31905e_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_9a5774251fef42a79e8f6d183964c8c1_loc" xlink:to="bd_49920ffcde984ef5b3f9d7b467198ab4_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_f39124e3a70146b2b8ee17a459ffad87_loc" xlink:to="bd_df4565c7c3384ceb961f28140f40498a_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_e5e23486f7ca4fc1b939f63505213d61_loc" xlink:to="bd_fc10135da56f45d1a89bbe007eba11b9_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_384eb862b2294029b8b238750ed4ffb7_loc" xlink:to="bd_ac3e048228464eacaa60fc8407789070_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_fd940c91f8334d5993fbd71e766af1f6_loc" xlink:to="bd_fc10135da56f45d1a89bbe007eba11b9_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_b5dc007a49f943d69b26360bcbc1eece_loc" xlink:to="bd_ac3e048228464eacaa60fc8407789070_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_65b327a690a74af8a902a88b7c2b4d1a_loc" xlink:to="bd_56fc251830cb4cebbf87f9c0b2b505da_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_f8c0b643d4a34cf8902ec1c6a6d9724f_loc" xlink:to="bd_8d21b77ffbe4492483fcc1e76ca156f8_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_38209c7eeb064a8885fd44dc0b8faea0_loc" xlink:to="bd_e808be492160455a8c83418647bded8c_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_92c7f31e5c3247fbb7a95c8d5dad5058_loc" xlink:to="bd_d8bcfcbd1d1d42b3bd5bc2d940b134ac_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_7a5dceca784d40369e4f9d62bf9caa08_loc" xlink:to="bd_a20fe7851e3649f292a3b5ed1102f96a_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_7b6c1729f81d45d0845b88686b6a845d_loc" xlink:to="bd_d41c17e448ea4ae4aad3771e45c875a3_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_5ac93c8fabf64cc3b7e03c72a1791866_loc" xlink:to="bd_3553c36acda248f89984a7385ad654df_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_7f2baaba4baa402587619b0d8987b086_loc" xlink:to="bd_bba180a3c5bf48f5bdb6750700f9f7fd_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_2f73fc8d6de149d79d7a1014dafef714_loc" xlink:to="bd_c0550f3d8ce449139ea0ddffbce70956_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_ceafea2672b54e6e8362f8de18c3ea5a_loc" xlink:to="bd_be99fb19883c4e92b8eaa716856902c9_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_de74c106edbe4a818c3631e88677b0e7_loc" xlink:to="bd_62500f3b6eb841b9a7e0a1319e41f9d5_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_bfbcd7ad9ed743fd94482c00bfd76ab8_loc" xlink:to="bd_06279ccbb4b44605a59048c1dce015c9_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_f94cf948665a4365a619099f33cdfb5b_loc" xlink:to="bd_7b6c730ef0a24fb7bc8b3ed701ed1607_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_b9f5c4d6795f420b833a60c4c1c5fd2a_loc" xlink:to="bd_4288f42fd5e544d08c94aa36cc2825f3_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_d5dfdd201b434510ba5c74245e20658d_loc" xlink:to="bd_f03545a929f144e3a786d6f8132bd089_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_e0c3bfddf3ab41368e9b843279b734a1_loc" xlink:to="bd_25e887af9aab4883bf732327c9eb56cb_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_a85afda4a19043debcbbc615ace33135_loc" xlink:to="bd_787b58c9eed7426e80e3fbb95350fdda_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_4bb1359f857f417ab4358be899d8c8e6_loc" xlink:to="bd_ffaa928636ef4f9fa2f15f6439f754c8_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_6d557388a6724cb1b11c842d869f7c00_loc" xlink:to="bd_588ebd9933bb4ccfa4ec11153f901cec_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_af57ecb4441a46fb8e05466e3007f725_loc" xlink:to="bd_9e5add33dbf242efb375e634baed0715_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_62ba384e5a1b46a89c4411848683d752_loc" xlink:to="bd_1ef7ffca9e334637891a4d5d597c862a_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_dbbfff54e7464543b8a751c7cc0a0a9e_loc" xlink:to="bd_8254b94f0fca470b99eb8591410ac14c_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_441c033d775c48bf9d4863904d95b515_loc" xlink:to="bd_d6d4032cd99b41069957bc21b187f988_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_292ce7269e3d4df0862576ece0744ea1_loc" xlink:to="bd_2f52a61990374d21842de42591fa011e_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_302ff3dd78134ce887720f2ba0e5a419_loc" xlink:to="bd_989da0885ff94b7899975720a3611fd0_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_8df164871eb94b3b81c21516ffd18306_loc" xlink:to="bd_aeaef649ae2b471c92e9d410b9f7afe3_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_67ee4d07930e46da8971c9402e6d2be6_loc" xlink:to="bd_d53ff274611241638dc4dd273a1bb3b4_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_96d49a68eb7f4555887efc8997f1f9a6_loc" xlink:to="bd_fb08a135235c471eb138fdd6ed91c401_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_c8bc4a7d0ab140cd9099403c1ba32227_loc" xlink:to="bd_ec96527715364c9e9aff63294dae2cc8_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_ac0229a55cd54219b9924d37a82d13e6_loc" xlink:to="bd_4cfd481e4eb94cd38b4f43d717318b0e_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_77ce774df869403d926c0c4d6d1656ea_loc" xlink:to="bd_06a415d0dad3454c81312ebd88e37a8a_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_700c543a7af2442489ba3149e64abc80_loc" xlink:to="bd_aeef8ece3fd741a59d0cf43a8ed3cfce_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_130d56ebfd2a4c1f8fab425a06331772_loc" xlink:to="bd_b626e42669e845d896b825ef526bc04d_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_2c78143b5f9d49029499be3caad1bcc3_loc" xlink:to="bd_c955722953594168ae8cf87d4d21bae5_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_159e3811508b4c389716fb1714bf0482_loc" xlink:to="bd_e432a40e7ad1461590ee2afc68718d25_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_0fdea2f914e5406581e9f2ef9d9cf853_loc" xlink:to="bd_8f210e9e77384dd084be2c2d485ab5f3_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+    <gen:arc xlink:from="bd_b1c8735b5fe04f68b6358bf2573c7f2d_loc" xlink:to="bd_b405041724984ec3aa23c0242da6d4b2_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc" />
+  </gen:link>
+</link:linkbase>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+Intellectual Property of the State of the Netherlands
+Architecture: nt14
+Version: 20200219
+Release date: Tue, 10 Dec 2019 07:50:25 GMT
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <link:roleRef xlink:href="./bd-linkroles-pre-ext1.xsd#bd_a259dfc2d2d34434a9fa21103e10c251" roleURI="urn:bd:linkrole:bd-lr-pre-ext1_aangifte-schenkbelasting" xlink:type="simple" />
+  <link:presentationLink xlink:role="urn:bd:linkrole:bd-lr-pre-ext1_aangifte-schenkbelasting" xlink:type="extended">
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_DonationTaxTitle" xlink:label="bd_bd-abstr-ext1_DonationTaxTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_DonationMessageTaxTitle" xlink:label="bd_bd-abstr-ext1_DonationMessageTaxTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_RecipientTitle" xlink:label="bd_bd-abstr-ext1_RecipientTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_RecipientIsDeclarantIndication" xlink:label="bd_bd-i-ext1_RecipientIsDeclarantIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_RecipientIsContactPersonIndication" xlink:label="bd_bd-i-ext1_RecipientIsContactPersonIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_RecipientDateOfBirth" xlink:label="bd_bd-i-ext1_RecipientDateOfBirth_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_RecipientNameTitle" xlink:label="bd_bd-abstr-ext1_RecipientNameTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_RecipientPrefix" xlink:label="bd_bd-i-ext1_RecipientPrefix_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_RecipientInitials" xlink:label="bd_bd-i-ext1_RecipientInitials_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_RecipientSurname" xlink:label="bd_bd-i-ext1_RecipientSurname_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_RecipientLegalPersonName" xlink:label="bd_bd-i-ext1_RecipientLegalPersonName_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_RecipientPartnerTitle" xlink:label="bd_bd-abstr-ext1_RecipientPartnerTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_RecipientPartnerIdentificationNumber" xlink:label="bd_bd-i-ext1_RecipientPartnerIdentificationNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_RecipientPartnerDateOfBirth" xlink:label="bd_bd-i-ext1_RecipientPartnerDateOfBirth_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-tuples-ext1.xsd#bd-t-ext1_GiftSpecification" xlink:label="bd_bd-t-ext1_GiftSpecification_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftDate" xlink:label="bd_bd-i-ext1_GiftDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftRevocableGiftIndication" xlink:label="bd_bd-i-ext1_GiftRevocableGiftIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftExtensionPartnerConceptIndication" xlink:label="bd_bd-i-ext1_GiftExtensionPartnerConceptIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftRecipientDonorRelationCode" xlink:label="bd_bd-i-ext1_GiftRecipientDonorRelationCode_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftTaxPayerIndication" xlink:label="bd_bd-i-ext1_GiftTaxPayerIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/presentation/bd-abstracts.xsd#bd-abstr_DoubleTaxationAvoidanceDeductionTitle" xlink:label="bd_bd-abstr_DoubleTaxationAvoidanceDeductionTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_TaxSimilarDifferentCountryPayed" xlink:label="bd_bd-i-ext1_TaxSimilarDifferentCountryPayed_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_NotaryConvenantTitle" xlink:label="bd_bd-abstr-ext1_NotaryConvenantTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_NotaryNumber" xlink:label="bd_bd-i-ext1_NotaryNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_CentralDigitalRepertoryNumber" xlink:label="bd_bd-i-ext1_CentralDigitalRepertoryNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_NotaryConvenantCreationDate" xlink:label="bd_bd-i-ext1_NotaryConvenantCreationDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_NotaryNameTitle" xlink:label="bd_bd-abstr-ext1_NotaryNameTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_NotarySurname" xlink:label="bd_bd-i-ext1_NotarySurname_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_NotaryPrefix" xlink:label="bd_bd-i-ext1_NotaryPrefix_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_NotaryInitials" xlink:label="bd_bd-i-ext1_NotaryInitials_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-tuples-ext1.xsd#bd-t-ext1_NotaryDomesticAddressPresentation" xlink:label="bd_bd-t-ext1_NotaryDomesticAddressPresentation_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-tuples.xsd#bd-t_AddressPresentation" xlink:label="bd_bd-t_AddressPresentation_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_PlaceOfResidenceNL" xlink:label="bd_bd-i_PlaceOfResidenceNL_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_HouseNumberAddition" xlink:label="bd_bd-i_HouseNumberAddition_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_HouseNumberNL" xlink:label="bd_bd-i_HouseNumberNL_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_PostalCodeNL" xlink:label="bd_bd-i_PostalCodeNL_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_StreetNameNL" xlink:label="bd_bd-i_StreetNameNL_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_ExemptionUseTitle" xlink:label="bd_bd-abstr-ext1_ExemptionUseTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftExemptionANBIOrSBBI" xlink:label="bd_bd-i-ext1_GiftExemptionANBIOrSBBI_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftExemptionOwnHouseOneOffIncreased" xlink:label="bd_bd-i-ext1_GiftExemptionOwnHouseOneOffIncreased_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftOwnHouseSpendingAmount" xlink:label="bd_bd-i-ext1_GiftOwnHouseSpendingAmount_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftExemptionOneOffIncreased" xlink:label="bd_bd-i-ext1_GiftExemptionOneOffIncreased_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftExemptionNaturalObligation" xlink:label="bd_bd-i-ext1_GiftExemptionNaturalObligation_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftExemptionExpensiveStudyIncreased" xlink:label="bd_bd-i-ext1_GiftExemptionExpensiveStudyIncreased_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftExemptionOther" xlink:label="bd_bd-i-ext1_GiftExemptionOther_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftExemptionDebtor" xlink:label="bd_bd-i-ext1_GiftExemptionDebtor_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_GiftNatureTitle" xlink:label="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_CashTitle" xlink:label="bd_bd-abstr-ext1_CashTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftCashMoneyBalances" xlink:label="bd_bd-i-ext1_GiftCashMoneyBalances_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_DebtRemissionTitle" xlink:label="bd_bd-abstr-ext1_DebtRemissionTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftDebtRemissionValue" xlink:label="bd_bd-i-ext1_GiftDebtRemissionValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_DebtRecognitionOutOfGenerosityTitle" xlink:label="bd_bd-abstr-ext1_DebtRecognitionOutOfGenerosityTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftDebtRecognitionOutOfGenerosity" xlink:label="bd_bd-i-ext1_GiftDebtRecognitionOutOfGenerosity_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_UsufructTitle" xlink:label="bd_bd-abstr-ext1_UsufructTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftUsufructValue" xlink:label="bd_bd-i-ext1_GiftUsufructValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_GiftOtherTitle" xlink:label="bd_bd-abstr-ext1_GiftOtherTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftOtherValue" xlink:label="bd_bd-i-ext1_GiftOtherValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftOtherDescription" xlink:label="bd_bd-i-ext1_GiftOtherDescription_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_MovablePropertyTitle" xlink:label="bd_bd-abstr-ext1_MovablePropertyTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftMovablePropertyType" xlink:label="bd_bd-i-ext1_GiftMovablePropertyType_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftMovablePropertyValue" xlink:label="bd_bd-i-ext1_GiftMovablePropertyValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/presentation/bd-abstracts.xsd#bd-abstr_BusinessCapitalTitle" xlink:label="bd_bd-abstr_BusinessCapitalTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftDeferredTaxTransferredPart" xlink:label="bd_bd-i-ext1_GiftDeferredTaxTransferredPart_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftBusinessTransferredPartPurchasePrice" xlink:label="bd_bd-i-ext1_GiftBusinessTransferredPartPurchasePrice_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftBusinessTransferredPartValue" xlink:label="bd_bd-i-ext1_GiftBusinessTransferredPartValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_BusinessSuccessionSchemeTitle" xlink:label="bd_bd-abstr-ext1_BusinessSuccessionSchemeTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftExemptionBusinessSuccessionIndication" xlink:label="bd_bd-i-ext1_GiftExemptionBusinessSuccessionIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftBusinessSuccessionFacilitiesObjectiveBusinessGoingConcernValue" xlink:label="bd_bd-i-ext1_GiftBusinessSuccessionFacilitiesObjectiveBusinessGoingConcernValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_BusinessCapitalGiftPrice" xlink:label="bd_bd-i-ext1_BusinessCapitalGiftPrice_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftBusinessSuccessionFacilitiesObjectiveBusinessLiquidationValue" xlink:label="bd_bd-i-ext1_GiftBusinessSuccessionFacilitiesObjectiveBusinessLiquidationValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftPreservedAssessmentIndication" xlink:label="bd_bd-i-ext1_GiftPreservedAssessmentIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_BusinessTitle" xlink:label="bd_bd-abstr-ext1_BusinessTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_BusinessName" xlink:label="bd_bd-i-ext1_BusinessName_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_BusinessIdentificationNumber" xlink:label="bd_bd-i-ext1_BusinessIdentificationNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftBusinessLegalForm" xlink:label="bd_bd-i-ext1_GiftBusinessLegalForm_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_TrustCapitalTitle" xlink:label="bd_bd-abstr-ext1_TrustCapitalTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftTrustCapitalName" xlink:label="bd_bd-i-ext1_GiftTrustCapitalName_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftTrustCapitalIdentificationNumber" xlink:label="bd_bd-i-ext1_GiftTrustCapitalIdentificationNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftTrustCapitalValue" xlink:label="bd_bd-i-ext1_GiftTrustCapitalValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_StockTitle" xlink:label="bd_bd-abstr-ext1_StockTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftStockValue" xlink:label="bd_bd-i-ext1_GiftStockValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_PeriodicalBenefitTitle" xlink:label="bd_bd-abstr-ext1_PeriodicalBenefitTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftBenefitPeriod" xlink:label="bd_bd-i-ext1_GiftBenefitPeriod_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftBenefitAmount" xlink:label="bd_bd-i-ext1_GiftBenefitAmount_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftPeriodicFirstDate" xlink:label="bd_bd-i-ext1_GiftPeriodicFirstDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftPeriodicLastDate" xlink:label="bd_bd-i-ext1_GiftPeriodicLastDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_LifeDependentTitle" xlink:label="bd_bd-abstr-ext1_LifeDependentTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftLonglivedDependenceIndication" xlink:label="bd_bd-i-ext1_GiftLonglivedDependenceIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-tuples-ext1.xsd#bd-t-ext1_PersonSpecification" xlink:label="bd_bd-t-ext1_PersonSpecification_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_PersonWhoseLifeDateOfBirth" xlink:label="bd_bd-i-ext1_PersonWhoseLifeDateOfBirth_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftPeriodicalBenefitIdentificationNumber" xlink:label="bd_bd-i-ext1_GiftPeriodicalBenefitIdentificationNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_ImmovablePropertyTitle" xlink:label="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyPurchasePrice" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyPurchasePrice_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyTransferTaxPayedGiftPart" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyTransferTaxPayedGiftPart_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertySurfaceSquareMetresTotal" xlink:label="bd_bd-i-ext1_GiftImmovablePropertySurfaceSquareMetresTotal_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyExposedValue" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyExposedValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyLawValue" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyLawValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyLandRegistryDesignation" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyLandRegistryDesignation_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyRemittedPurchasePrice" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyRemittedPurchasePrice_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertySurfaceSquareMetresHiredOut" xlink:label="bd_bd-i-ext1_GiftImmovablePropertySurfaceSquareMetresHiredOut_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyMarketCompliantRentIndication" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyMarketCompliantRentIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyLowerPurchasePriceThanMarketValueIndication" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyLowerPurchasePriceThanMarketValueIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyCommercialValue" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyCommercialValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyTransferredPartNumerator" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyTransferredPartNumerator_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyLargerPartHouseSeparatelySaleableIndication" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyLargerPartHouseSeparatelySaleableIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyAnnualGroundLeaseValue" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyAnnualGroundLeaseValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyAnnualRentValue" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyAnnualRentValue_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyTransferredPartDenominator" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyTransferredPartDenominator_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_GiftImmovablePropertyEstateSceneryLawIndication" xlink:label="bd_bd-i-ext1_GiftImmovablePropertyEstateSceneryLawIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-tuples-ext1.xsd#bd-t-ext1_GiftImmovablePropertyAddressPresentation" xlink:label="bd_bd-t-ext1_GiftImmovablePropertyAddressPresentation_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-tuples.xsd#bd-t_AddressAbroadPresentation" xlink:label="bd_bd-t_AddressAbroadPresentation_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../../sbr/20190320/dictionary/nl-common-data.xsd#nl-cd_CountryCodeISO" xlink:label="bd_nl-cd_CountryCodeISO_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_PlaceOfResidenceAbroad" xlink:label="bd_bd-i_PlaceOfResidenceAbroad_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_HouseNumberAbroad" xlink:label="bd_bd-i_HouseNumberAbroad_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_PostalCodeAbroad" xlink:label="bd_bd-i_PostalCodeAbroad_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_StreetNameAbroad" xlink:label="bd_bd-i_StreetNameAbroad_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_DonorTitle" xlink:label="bd_bd-abstr-ext1_DonorTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DonorDateOfBirth" xlink:label="bd_bd-i-ext1_DonorDateOfBirth_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DonorIdentificationNumber" xlink:label="bd_bd-i-ext1_DonorIdentificationNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DonorIsCorrespondentIndication" xlink:label="bd_bd-i-ext1_DonorIsCorrespondentIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DonorIsDeclarantIndication" xlink:label="bd_bd-i-ext1_DonorIsDeclarantIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_DonorNameTitle" xlink:label="bd_bd-abstr-ext1_DonorNameTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DonorSurname" xlink:label="bd_bd-i-ext1_DonorSurname_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DonorLegalPersonName" xlink:label="bd_bd-i-ext1_DonorLegalPersonName_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DonorPrefix" xlink:label="bd_bd-i-ext1_DonorPrefix_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DonorInitials" xlink:label="bd_bd-i-ext1_DonorInitials_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_SignatureTitle" xlink:label="bd_bd-abstr-ext1_SignatureTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_SignaturePlaceOfResidence" xlink:label="bd_bd-i-ext1_SignaturePlaceOfResidence_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_SignatureDate" xlink:label="bd_bd-i-ext1_SignatureDate_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_ContactDetailsTitle" xlink:label="bd_bd-abstr-ext1_ContactDetailsTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_ContactEmailAddressFull" xlink:label="bd_bd-i-ext1_ContactEmailAddressFull_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_CorrespondenceAddressName" xlink:label="bd_bd-i-ext1_CorrespondenceAddressName_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_ContactTelephoneNumber" xlink:label="bd_bd-i_ContactTelephoneNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_ContactTitle" xlink:label="bd_bd-abstr-ext1_ContactTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_ContactNotaryNumber" xlink:label="bd_bd-i-ext1_ContactNotaryNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_ContactIdentificationNumber" xlink:label="bd_bd-i-ext1_ContactIdentificationNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_ContactTaxConsultantNumber" xlink:label="bd_bd-i-ext1_ContactTaxConsultantNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_ContactNameTitle" xlink:label="bd_bd-abstr-ext1_ContactNameTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_ContactSurname" xlink:label="bd_bd-i_ContactSurname_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_ContactPrefix" xlink:label="bd_bd-i_ContactPrefix_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_ContactInitials" xlink:label="bd_bd-i_ContactInitials_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-tuples-ext1.xsd#bd-t-ext1_CorrespondenceAddressPresentation" xlink:label="bd_bd-t-ext1_CorrespondenceAddressPresentation_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_DeclarantTitle" xlink:label="bd_bd-abstr-ext1_DeclarantTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarantNotaryNumber" xlink:label="bd_bd-i-ext1_DeclarantNotaryNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarantTaxConsultantNumber" xlink:label="bd_bd-i-ext1_DeclarantTaxConsultantNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarantIsContactIndication" xlink:label="bd_bd-i-ext1_DeclarantIsContactIndication_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarantIdentificationNumber" xlink:label="bd_bd-i-ext1_DeclarantIdentificationNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-abstr-ext1.xsd#bd-abstr-ext1_DeclarantNameTitle" xlink:label="bd_bd-abstr-ext1_DeclarantNameTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarantPrefix" xlink:label="bd_bd-i-ext1_DeclarantPrefix_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarantSurname" xlink:label="bd_bd-i-ext1_DeclarantSurname_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarantInitials" xlink:label="bd_bd-i-ext1_DeclarantInitials_loc" xlink:type="locator" />
+    <link:loc xlink:href="../dictionary/bd-data-ext1.xsd#bd-i-ext1_DeclarantLegalPersonName" xlink:label="bd_bd-i-ext1_DeclarantLegalPersonName_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/presentation/bd-abstracts.xsd#bd-abstr_MessageDetailsTitle" xlink:label="bd_bd-abstr_MessageDetailsTitle_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_SoftwarePackageName" xlink:label="bd_bd-i_SoftwarePackageName_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_SoftwareVendorAccountNumber" xlink:label="bd_bd-i_SoftwareVendorAccountNumber_loc" xlink:type="locator" />
+    <link:loc xlink:href="../../20191211/dictionary/bd-data.xsd#bd-i_SoftwarePackageVersion" xlink:label="bd_bd-i_SoftwarePackageVersion_loc" xlink:type="locator" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonationTaxTitle_loc" xlink:to="bd_bd-abstr-ext1_DonationMessageTaxTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonationMessageTaxTitle_loc" xlink:to="bd_bd-abstr-ext1_RecipientTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientTitle_loc" xlink:to="bd_bd-i-ext1_RecipientIsDeclarantIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientTitle_loc" xlink:to="bd_bd-i-ext1_RecipientIsContactPersonIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientTitle_loc" xlink:to="bd_bd-i-ext1_RecipientDateOfBirth_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientTitle_loc" xlink:to="bd_bd-abstr-ext1_RecipientNameTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientNameTitle_loc" xlink:to="bd_bd-i-ext1_RecipientPrefix_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientNameTitle_loc" xlink:to="bd_bd-i-ext1_RecipientInitials_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientNameTitle_loc" xlink:to="bd_bd-i-ext1_RecipientSurname_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientNameTitle_loc" xlink:to="bd_bd-i-ext1_RecipientLegalPersonName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientTitle_loc" xlink:to="bd_bd-abstr-ext1_RecipientPartnerTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientPartnerTitle_loc" xlink:to="bd_bd-i-ext1_RecipientPartnerIdentificationNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_RecipientPartnerTitle_loc" xlink:to="bd_bd-i-ext1_RecipientPartnerDateOfBirth_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonationMessageTaxTitle_loc" xlink:to="bd_bd-t-ext1_GiftSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftSpecification_loc" xlink:to="bd_bd-i-ext1_GiftDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftSpecification_loc" xlink:to="bd_bd-i-ext1_GiftRevocableGiftIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftSpecification_loc" xlink:to="bd_bd-i-ext1_GiftExtensionPartnerConceptIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftSpecification_loc" xlink:to="bd_bd-i-ext1_GiftRecipientDonorRelationCode_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftSpecification_loc" xlink:to="bd_bd-i-ext1_GiftTaxPayerIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftSpecification_loc" xlink:to="bd_bd-abstr_DoubleTaxationAvoidanceDeductionTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="9" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_DoubleTaxationAvoidanceDeductionTitle_loc" xlink:to="bd_bd-i-ext1_TaxSimilarDifferentCountryPayed_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftSpecification_loc" xlink:to="bd_bd-abstr-ext1_NotaryConvenantTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="8" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_NotaryConvenantTitle_loc" xlink:to="bd_bd-i-ext1_NotaryNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_NotaryConvenantTitle_loc" xlink:to="bd_bd-i-ext1_CentralDigitalRepertoryNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_NotaryConvenantTitle_loc" xlink:to="bd_bd-i-ext1_NotaryConvenantCreationDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_NotaryConvenantTitle_loc" xlink:to="bd_bd-abstr-ext1_NotaryNameTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_NotaryNameTitle_loc" xlink:to="bd_bd-i-ext1_NotarySurname_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_NotaryNameTitle_loc" xlink:to="bd_bd-i-ext1_NotaryPrefix_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_NotaryNameTitle_loc" xlink:to="bd_bd-i-ext1_NotaryInitials_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_NotaryConvenantTitle_loc" xlink:to="bd_bd-t-ext1_NotaryDomesticAddressPresentation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_NotaryDomesticAddressPresentation_loc" xlink:to="bd_bd-t_AddressPresentation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t_AddressPresentation_loc" xlink:to="bd_bd-i_PlaceOfResidenceNL_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t_AddressPresentation_loc" xlink:to="bd_bd-i_HouseNumberAddition_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t_AddressPresentation_loc" xlink:to="bd_bd-i_HouseNumberNL_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t_AddressPresentation_loc" xlink:to="bd_bd-i_PostalCodeNL_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t_AddressPresentation_loc" xlink:to="bd_bd-i_StreetNameNL_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftSpecification_loc" xlink:to="bd_bd-abstr-ext1_ExemptionUseTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ExemptionUseTitle_loc" xlink:to="bd_bd-i-ext1_GiftExemptionANBIOrSBBI_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ExemptionUseTitle_loc" xlink:to="bd_bd-i-ext1_GiftExemptionOwnHouseOneOffIncreased_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ExemptionUseTitle_loc" xlink:to="bd_bd-i-ext1_GiftOwnHouseSpendingAmount_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ExemptionUseTitle_loc" xlink:to="bd_bd-i-ext1_GiftExemptionOneOffIncreased_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ExemptionUseTitle_loc" xlink:to="bd_bd-i-ext1_GiftExemptionNaturalObligation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ExemptionUseTitle_loc" xlink:to="bd_bd-i-ext1_GiftExemptionExpensiveStudyIncreased_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ExemptionUseTitle_loc" xlink:to="bd_bd-i-ext1_GiftExemptionOther_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="8" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ExemptionUseTitle_loc" xlink:to="bd_bd-i-ext1_GiftExemptionDebtor_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftSpecification_loc" xlink:to="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr-ext1_CashTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_CashTitle_loc" xlink:to="bd_bd-i-ext1_GiftCashMoneyBalances_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr-ext1_DebtRemissionTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="9" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DebtRemissionTitle_loc" xlink:to="bd_bd-i-ext1_GiftDebtRemissionValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr-ext1_DebtRecognitionOutOfGenerosityTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="8" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DebtRecognitionOutOfGenerosityTitle_loc" xlink:to="bd_bd-i-ext1_GiftDebtRecognitionOutOfGenerosity_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr-ext1_UsufructTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="10" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_UsufructTitle_loc" xlink:to="bd_bd-i-ext1_GiftUsufructValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr-ext1_GiftOtherTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="11" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftOtherTitle_loc" xlink:to="bd_bd-i-ext1_GiftOtherValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftOtherTitle_loc" xlink:to="bd_bd-i-ext1_GiftOtherDescription_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr-ext1_MovablePropertyTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_MovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftMovablePropertyType_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_MovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftMovablePropertyValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr_BusinessCapitalTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_BusinessCapitalTitle_loc" xlink:to="bd_bd-i-ext1_GiftDeferredTaxTransferredPart_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_BusinessCapitalTitle_loc" xlink:to="bd_bd-i-ext1_GiftBusinessTransferredPartPurchasePrice_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_BusinessCapitalTitle_loc" xlink:to="bd_bd-i-ext1_GiftBusinessTransferredPartValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_BusinessCapitalTitle_loc" xlink:to="bd_bd-abstr-ext1_BusinessSuccessionSchemeTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_BusinessSuccessionSchemeTitle_loc" xlink:to="bd_bd-i-ext1_GiftExemptionBusinessSuccessionIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_BusinessSuccessionSchemeTitle_loc" xlink:to="bd_bd-i-ext1_GiftBusinessSuccessionFacilitiesObjectiveBusinessGoingConcernValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_BusinessSuccessionSchemeTitle_loc" xlink:to="bd_bd-i-ext1_BusinessCapitalGiftPrice_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_BusinessSuccessionSchemeTitle_loc" xlink:to="bd_bd-i-ext1_GiftBusinessSuccessionFacilitiesObjectiveBusinessLiquidationValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_BusinessSuccessionSchemeTitle_loc" xlink:to="bd_bd-i-ext1_GiftPreservedAssessmentIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_BusinessCapitalTitle_loc" xlink:to="bd_bd-abstr-ext1_BusinessTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_BusinessTitle_loc" xlink:to="bd_bd-i-ext1_BusinessName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_BusinessTitle_loc" xlink:to="bd_bd-i-ext1_BusinessIdentificationNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_BusinessTitle_loc" xlink:to="bd_bd-i-ext1_GiftBusinessLegalForm_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr-ext1_TrustCapitalTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_TrustCapitalTitle_loc" xlink:to="bd_bd-i-ext1_GiftTrustCapitalName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_TrustCapitalTitle_loc" xlink:to="bd_bd-i-ext1_GiftTrustCapitalIdentificationNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_TrustCapitalTitle_loc" xlink:to="bd_bd-i-ext1_GiftTrustCapitalValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr-ext1_StockTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_StockTitle_loc" xlink:to="bd_bd-i-ext1_GiftStockValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr-ext1_PeriodicalBenefitTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PeriodicalBenefitTitle_loc" xlink:to="bd_bd-i-ext1_GiftBenefitPeriod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PeriodicalBenefitTitle_loc" xlink:to="bd_bd-i-ext1_GiftBenefitAmount_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PeriodicalBenefitTitle_loc" xlink:to="bd_bd-i-ext1_GiftPeriodicFirstDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PeriodicalBenefitTitle_loc" xlink:to="bd_bd-i-ext1_GiftPeriodicLastDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_PeriodicalBenefitTitle_loc" xlink:to="bd_bd-abstr-ext1_LifeDependentTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_LifeDependentTitle_loc" xlink:to="bd_bd-i-ext1_GiftLonglivedDependenceIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_LifeDependentTitle_loc" xlink:to="bd_bd-t-ext1_PersonSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PersonSpecification_loc" xlink:to="bd_bd-i-ext1_PersonWhoseLifeDateOfBirth_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_PersonSpecification_loc" xlink:to="bd_bd-i-ext1_GiftPeriodicalBenefitIdentificationNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_GiftNatureTitle_loc" xlink:to="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyPurchasePrice_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyTransferTaxPayedGiftPart_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="8" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertySurfaceSquareMetresTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="14" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyExposedValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="15" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyLawValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyLandRegistryDesignation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="9" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyRemittedPurchasePrice_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertySurfaceSquareMetresHiredOut_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="13" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyMarketCompliantRentIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="12" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyLowerPurchasePriceThanMarketValueIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyCommercialValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyTransferredPartNumerator_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyLargerPartHouseSeparatelySaleableIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="16" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyAnnualGroundLeaseValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="10" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyAnnualRentValue_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="11" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyTransferredPartDenominator_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-i-ext1_GiftImmovablePropertyEstateSceneryLawIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="17" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ImmovablePropertyTitle_loc" xlink:to="bd_bd-t-ext1_GiftImmovablePropertyAddressPresentation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="18" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftImmovablePropertyAddressPresentation_loc" xlink:to="bd_bd-t_AddressAbroadPresentation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t_AddressAbroadPresentation_loc" xlink:to="bd_nl-cd_CountryCodeISO_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t_AddressAbroadPresentation_loc" xlink:to="bd_bd-i_PlaceOfResidenceAbroad_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t_AddressAbroadPresentation_loc" xlink:to="bd_bd-i_HouseNumberAbroad_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t_AddressAbroadPresentation_loc" xlink:to="bd_bd-i_PostalCodeAbroad_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t_AddressAbroadPresentation_loc" xlink:to="bd_bd-i_StreetNameAbroad_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_GiftImmovablePropertyAddressPresentation_loc" xlink:to="bd_bd-t_AddressPresentation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonationMessageTaxTitle_loc" xlink:to="bd_bd-abstr-ext1_DonorTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonorTitle_loc" xlink:to="bd_bd-i-ext1_DonorDateOfBirth_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonorTitle_loc" xlink:to="bd_bd-i-ext1_DonorIdentificationNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonorTitle_loc" xlink:to="bd_bd-i-ext1_DonorIsCorrespondentIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonorTitle_loc" xlink:to="bd_bd-i-ext1_DonorIsDeclarantIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonorTitle_loc" xlink:to="bd_bd-abstr-ext1_DonorNameTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonorNameTitle_loc" xlink:to="bd_bd-i-ext1_DonorSurname_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonorNameTitle_loc" xlink:to="bd_bd-i-ext1_DonorLegalPersonName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonorNameTitle_loc" xlink:to="bd_bd-i-ext1_DonorPrefix_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonorNameTitle_loc" xlink:to="bd_bd-i-ext1_DonorInitials_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonationTaxTitle_loc" xlink:to="bd_bd-abstr-ext1_SignatureTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_SignatureTitle_loc" xlink:to="bd_bd-i-ext1_SignaturePlaceOfResidence_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_SignatureTitle_loc" xlink:to="bd_bd-i-ext1_SignatureDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonationTaxTitle_loc" xlink:to="bd_bd-abstr-ext1_ContactDetailsTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactDetailsTitle_loc" xlink:to="bd_bd-i-ext1_ContactEmailAddressFull_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactDetailsTitle_loc" xlink:to="bd_bd-i-ext1_CorrespondenceAddressName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactDetailsTitle_loc" xlink:to="bd_bd-i_ContactTelephoneNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactDetailsTitle_loc" xlink:to="bd_bd-abstr-ext1_ContactTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactTitle_loc" xlink:to="bd_bd-i-ext1_ContactNotaryNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactTitle_loc" xlink:to="bd_bd-i-ext1_ContactIdentificationNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactTitle_loc" xlink:to="bd_bd-i-ext1_ContactTaxConsultantNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactTitle_loc" xlink:to="bd_bd-abstr-ext1_ContactNameTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactNameTitle_loc" xlink:to="bd_bd-i_ContactSurname_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactNameTitle_loc" xlink:to="bd_bd-i_ContactPrefix_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactNameTitle_loc" xlink:to="bd_bd-i_ContactInitials_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_ContactDetailsTitle_loc" xlink:to="bd_bd-t-ext1_CorrespondenceAddressPresentation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_CorrespondenceAddressPresentation_loc" xlink:to="bd_bd-t_AddressPresentation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-t-ext1_CorrespondenceAddressPresentation_loc" xlink:to="bd_bd-t_AddressAbroadPresentation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonationTaxTitle_loc" xlink:to="bd_bd-abstr-ext1_DeclarantTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DeclarantTitle_loc" xlink:to="bd_bd-i-ext1_DeclarantNotaryNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DeclarantTitle_loc" xlink:to="bd_bd-i-ext1_DeclarantTaxConsultantNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DeclarantTitle_loc" xlink:to="bd_bd-i-ext1_DeclarantIsContactIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DeclarantTitle_loc" xlink:to="bd_bd-i-ext1_DeclarantIdentificationNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DeclarantTitle_loc" xlink:to="bd_bd-abstr-ext1_DeclarantNameTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DeclarantNameTitle_loc" xlink:to="bd_bd-i-ext1_DeclarantPrefix_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DeclarantNameTitle_loc" xlink:to="bd_bd-i-ext1_DeclarantSurname_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DeclarantNameTitle_loc" xlink:to="bd_bd-i-ext1_DeclarantInitials_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DeclarantNameTitle_loc" xlink:to="bd_bd-i-ext1_DeclarantLegalPersonName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr-ext1_DonationTaxTitle_loc" xlink:to="bd_bd-abstr_MessageDetailsTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_MessageDetailsTitle_loc" xlink:to="bd_bd-i_SoftwarePackageName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_MessageDetailsTitle_loc" xlink:to="bd_bd-i_SoftwareVendorAccountNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc" />
+    <link:presentationArc xlink:from="bd_bd-abstr_MessageDetailsTitle_loc" xlink:to="bd_bd-i_SoftwarePackageVersion_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc" />
+  </link:presentationLink>
+</link:linkbase>

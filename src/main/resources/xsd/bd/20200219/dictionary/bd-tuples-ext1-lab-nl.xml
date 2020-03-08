@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+This file is part of the Dutch Taxonomy (Nederlandse Taxonomie; NT)
+Intellectual Property of the State of the Netherlands
+Architecture: nt14
+Version: 20200219
+Release date: Tue, 10 Dec 2019 07:50:24 GMT
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+    <link:label id="bd_49d9b0d4d48b4c55a0ca4cd7cd8db2a4" xlink:label="bd_49d9b0d4d48b4c55a0ca4cd7cd8db2a4_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Gegevens erfgenaam/verkrijger</link:label>
+    <link:label id="bd_adfa96339c1b4c66a12c5ec0a01c0bef" xlink:label="bd_adfa96339c1b4c66a12c5ec0a01c0bef_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Erfgenaam waarvoor geen aangifte wordt gedaan</link:label>
+    <link:label id="bd_01de496db42143cfb6cdb7b4928eeb8c" xlink:label="bd_01de496db42143cfb6cdb7b4928eeb8c_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Verdeling met testament</link:label>
+    <link:label id="bd_5271d786dc6c4cefba6298cebceb691f" xlink:label="bd_5271d786dc6c4cefba6298cebceb691f_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Adresgegevens notaris</link:label>
+    <link:label id="bd_e11b9627b02444d9b90a9b4977d85b63" xlink:label="bd_e11b9627b02444d9b90a9b4977d85b63_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Legaten</link:label>
+    <link:label id="bd_3b4111a30469444190c268fdb09da496" xlink:label="bd_3b4111a30469444190c268fdb09da496_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Aftrek ter voorkoming van dubbele belasting</link:label>
+    <link:label id="bd_1eea0a2a89684428ab2779d08072c1a5" xlink:label="bd_1eea0a2a89684428ab2779d08072c1a5_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Adresgegevens overledene</link:label>
+    <link:label id="bd_e9331a15795b40ef903e5d8b579f377f" xlink:label="bd_e9331a15795b40ef903e5d8b579f377f_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Gegevens ondertekenaar</link:label>
+    <link:label id="bd_ff65408a8f3f4183a794c3de0541d785" xlink:label="bd_ff65408a8f3f4183a794c3de0541d785_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Correspondentieadres</link:label>
+    <link:label id="bd_66f82d6a528c410e984b32c8fcb12237" xlink:label="bd_66f82d6a528c410e984b32c8fcb12237_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Landgoederen Natuurschoonwet</link:label>
+    <link:label id="bd_c7776b23c81e489793fe7068384c3e03" xlink:label="bd_c7776b23c81e489793fe7068384c3e03_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Hypotheken in erfenis</link:label>
+    <link:label id="bd_4274ca258b1e4a63a9aba653ea76b369" xlink:label="bd_4274ca258b1e4a63a9aba653ea76b369_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Banktegoeden</link:label>
+    <link:label id="bd_392799ff2fe14f9e9edc1449d530933c" xlink:label="bd_392799ff2fe14f9e9edc1449d530933c_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Roerende zaken</link:label>
+    <link:label id="bd_3d4beecb8577471c84063cf30e57cd00" xlink:label="bd_3d4beecb8577471c84063cf30e57cd00_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Andere bezittingen in erfenis</link:label>
+    <link:label id="bd_78a3fbdd42f548fd96781450f60808f4" xlink:label="bd_78a3fbdd42f548fd96781450f60808f4_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Vorderingen in erfenis</link:label>
+    <link:label id="bd_56fc251830cb4cebbf87f9c0b2b505da" xlink:label="bd_56fc251830cb4cebbf87f9c0b2b505da_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Overige onroerende zaken</link:label>
+    <link:label id="bd_3f5a561e2f264d16b95192d7850b7f0f" xlink:label="bd_3f5a561e2f264d16b95192d7850b7f0f_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Adres eigen woning erflater</link:label>
+    <link:label id="bd_b141d4e7fb2744ec88fc2e95348f1e9f" xlink:label="bd_b141d4e7fb2744ec88fc2e95348f1e9f_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Niet verdeelde erfenis in erfenis</link:label>
+    <link:label id="bd_2c4cf02666574863a33234bc9f4cf77d" xlink:label="bd_2c4cf02666574863a33234bc9f4cf77d_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Effectenrekening</link:label>
+    <link:label id="bd_df0db60a9080438e84f2418e6df53c15" xlink:label="bd_df0db60a9080438e84f2418e6df53c15_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Schuld aan erfgenaam in erfenis</link:label>
+    <link:label id="bd_551dab01d61b49e0839417ccb82aa729" xlink:label="bd_551dab01d61b49e0839417ccb82aa729_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Schenkingen op papier in erfenis</link:label>
+    <link:label id="bd_96e33cbddcca4bbab0bf4c87ee45d4ea" xlink:label="bd_96e33cbddcca4bbab0bf4c87ee45d4ea_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Andere schulden in erfenis</link:label>
+    <link:label id="bd_99c1259a9a6a4223afa3b29747e98470" xlink:label="bd_99c1259a9a6a4223afa3b29747e98470_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Ondernemingen in erfenis</link:label>
+    <link:label id="bd_6cd026d4b0df48aeaf5d9e274faaf677" xlink:label="bd_6cd026d4b0df48aeaf5d9e274faaf677_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Verzoeker bedrijfsopvolgingsfaciliteiten</link:label>
+    <link:label id="bd_5d87efc9814744508bff67fabcbf4d6c" xlink:label="bd_5d87efc9814744508bff67fabcbf4d6c_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Periodieke uitkeringen BV NV</link:label>
+    <link:label id="bd_a29bc254fb43486eae763f282a951ba0" xlink:label="bd_a29bc254fb43486eae763f282a951ba0_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Aandeelhouder, specificatie</link:label>
+    <link:label id="bd_0b583c6a8b9049f98a2e2ff3a82f6b55" xlink:label="bd_0b583c6a8b9049f98a2e2ff3a82f6b55_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Verkrijger schenking</link:label>
+    <link:label id="bd_67d848b1e5ec46ddbb9233ae45b650e7" xlink:label="bd_67d848b1e5ec46ddbb9233ae45b650e7_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Afgezonderd particulier vermogen</link:label>
+    <link:label id="bd_4ded191a06144cb5bd5a12e56fdf7f14" xlink:label="bd_4ded191a06144cb5bd5a12e56fdf7f14_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Vermogensbestanddelen</link:label>
+    <link:label id="bd_6d2c95b21a6046dab75f0554978f341b" xlink:label="bd_6d2c95b21a6046dab75f0554978f341b_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Eerdere erfenis</link:label>
+    <link:label id="bd_1e3b33aebc0a4710979f8dfee4afc66a" xlink:label="bd_1e3b33aebc0a4710979f8dfee4afc66a_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Verblijvingsbeding</link:label>
+    <link:label id="bd_cc007b98b05d4a97bf8de9fc453a7627" xlink:label="bd_cc007b98b05d4a97bf8de9fc453a7627_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Voordelen uit verkoop</link:label>
+    <link:label id="bd_de7aa0062e6244fdbb679fc25c687fc8" xlink:label="bd_de7aa0062e6244fdbb679fc25c687fc8_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Pensioenuitkeringen</link:label>
+    <link:label id="bd_0cfcf9a57d104b8ca6a07288bb64ae8d" xlink:label="bd_0cfcf9a57d104b8ca6a07288bb64ae8d_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Lijfrentes</link:label>
+    <link:label id="bd_a10451adcf484e5d9acd5f451beebcc2" xlink:label="bd_a10451adcf484e5d9acd5f451beebcc2_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Levens-/ongevallenverzekering</link:label>
+    <link:label id="bd_3b8cd2ecb26545eb905852d9acdd3871" xlink:label="bd_3b8cd2ecb26545eb905852d9acdd3871_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Verplichting leveringen uitgestelde levering</link:label>
+    <link:label id="bd_1812055a8a1348c0adb3c839023f2e2c" xlink:label="bd_1812055a8a1348c0adb3c839023f2e2c_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Aanwijsposten specificatie</link:label>
+    <link:label id="bd_49da5efd577249d7a6d73354fc091c5a" xlink:label="bd_49da5efd577249d7a6d73354fc091c5a_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Adresgegevens belastingconsulent</link:label>
+    <link:label id="bd_4390e502680346f8a40d391cc656aea0" xlink:label="bd_4390e502680346f8a40d391cc656aea0_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Uitstel gegevens van de belastingplichtige</link:label>
+    <link:label id="bd_738094f8965f4ef7b2bb2857542aa375" xlink:label="bd_738094f8965f4ef7b2bb2857542aa375_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Overzicht uitstelgegevens aangifte</link:label>
+    <link:label id="bd_57a9cdded1694e42b759bd653106c2c4" xlink:label="bd_57a9cdded1694e42b759bd653106c2c4_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Inleverschema aangiften</link:label>
+    <link:label id="bd_2ee027c0b2154f91af2adef5ab46b68c" xlink:label="bd_2ee027c0b2154f91af2adef5ab46b68c_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Overzicht mutaties uitstel doen van aangifte</link:label>
+    <link:label id="bd_32d46bd148b146a5a032a3069465ee4f" xlink:label="bd_32d46bd148b146a5a032a3069465ee4f_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Schenking</link:label>
+    <link:label id="bd_9218ed54cc8c48dcba748936210b0a11" xlink:label="bd_9218ed54cc8c48dcba748936210b0a11_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Adres notaris</link:label>
+    <link:label id="bd_0fbfc5223bdf44b09ec2e7f1559c6d54" xlink:label="bd_0fbfc5223bdf44b09ec2e7f1559c6d54_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Persoon</link:label>
+    <link:label id="bd_5a1fb3d91b764f0781adabefbccbad80" xlink:label="bd_5a1fb3d91b764f0781adabefbccbad80_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource">Adres onroerende zaak</link:label>
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_HeirBenificiaryTaxedDataSpecification" xlink:label="bd_ed37ec2d8da24039913f7d5d0891d74a_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_HeirNoDeclarationMadeForSpecification" xlink:label="bd_43f3463df198497782f20cb4fa190312_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_DivideTestamentPresentation" xlink:label="bd_a4a23a83e9204efc99f02bfef495e430_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_NotaryAddressPresentation" xlink:label="bd_708ebd7c6de045bba9c0787f1ce1bd1c_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_LegaciesSpecification" xlink:label="bd_2e569eed26dd46f5b6b86d99a053e105_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_DoubleTaxationAvoidanceDeductionSpecification" xlink:label="bd_d162f1a3d61145c1882f02fe98fa5cc6_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_DeceasedAddressPresentation" xlink:label="bd_fe8fbd703362411b89f6d4b7604ad799_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_SignatoryDataPresentation" xlink:label="bd_9e67d4d254ad495589f2386911c04312_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_ContactAddressPresentation" xlink:label="bd_4d6be6dd25aa45d4a758df637d1bbf53_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_EstateSceneryLawSpecification" xlink:label="bd_3d08bbfa0ee9400aa05a77e7254068b2_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_InheritanceMortgagesSpecification" xlink:label="bd_0b6ff171ea37496781a9a8da77329a71_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_BankBalancesSpecification" xlink:label="bd_b4aa470bfb4d44c28384211745c15957_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_MovablePropertySpecification" xlink:label="bd_ad4e90675ed04310b25c2ccc22a0f1cc_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_InheritancePossessionsOtherSpecification" xlink:label="bd_4c55ef4b20b24742aae8388830d9f026_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_InheritanceReceivablesSpecification" xlink:label="bd_13aa6e46c43249c5bdfb64b68ee04b62_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_ImmovablePropertyOtherSpecification" xlink:label="bd_d68abcf4a3bf405dad088d397bb59976_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_OwnHouseAddressPresentation" xlink:label="bd_52b29c8e085f427b8aae9791f647da84_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_InheritanceNotYetDividedLegacySpecification" xlink:label="bd_758968886e184a33980925093fd5e6fc_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_InheritanceStockAccountsSpecification" xlink:label="bd_c39f9b69ebef4b949ddc714fab06bf03_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_InheritanceDebtHeirsSpecification" xlink:label="bd_bf7ef368a80240759c9e749ad2d96f5e_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_InheritanceDonationsOnPaperSpecification" xlink:label="bd_416d7c3b9eaf4beb86196dc4ec14966f_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_InheritanceDebtsOtherSpecification" xlink:label="bd_2aa3b8e389de47ee9aec337b8ae9e145_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_InheritanceBusinessesSpecification" xlink:label="bd_b3e46650f03a4c7e8b385243d643651a_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_BusinessSuccessionFacilitiesApplicantSpecification" xlink:label="bd_7688a8be84dd4bf8b33f801f35b3d8ac_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_PrivateCompanyPublicCompanyPeriodicPaymentSpecification" xlink:label="bd_d3676c6f1f1d41fbbf8f4ca6921c28ef_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_PrivateCompanyPublicCompanyShareholderSpecification" xlink:label="bd_9970d379cce04f3d83d1db6a059d448c_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_DonationReceiverSpecification" xlink:label="bd_659c2a77189c4f91a37fb19e752909b1_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_TrustCapitalSpecification" xlink:label="bd_3b467155753c420188293b640db9616f_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_CapitalComponentsSpecification" xlink:label="bd_52d29c46738c452b810f36b124e1684f_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_InheritancePreviousSpecification" xlink:label="bd_6173451c0fd04531a9bb46112e922fb3_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_ResidenceClauseSpecification" xlink:label="bd_2ec423f221984994b49e123df32a476a_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_BenefitsFromSalesSpecification" xlink:label="bd_0cf90cb01ba446d6bd84b3307c645f08_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_RetirementBenefitsSpecification" xlink:label="bd_244fe9e6e5de4fc5b91bd37c339716cd_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_AnnuityBenefitsSpecification" xlink:label="bd_6e79dbbea9114b5baf80be1aca7f2696_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_LifeAccidentInsuranceSpecification" xlink:label="bd_e36977bf16694a88ae48c62cf4258e3b_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_MandatoryDeliveryPostponedDeliverySpecification" xlink:label="bd_bc1ff611bb0d4af0b495d3666c19c768_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_AppointPostsSpecification" xlink:label="bd_be7a70e4a31f4840a375c8c769e423e6_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_TaxConsultantAddressPresentation" xlink:label="bd_a6468059363d4856a0e01445a4cff5af_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_PostponementSpecification" xlink:label="bd_c3eccc8bd4a54b4d815bc7ecde58b1d4_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_PostponementDeclarationSpecification" xlink:label="bd_62b27946bbc14af4ace78c39c82676f4_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_PostponementDeclarationSchemeSpecification" xlink:label="bd_829f994015cb4646af141b349336285b_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_PostponementDeclarationChangesSpecification" xlink:label="bd_dc22a4c7a9b043c7adcfe5131c8d7e75_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_GiftSpecification" xlink:label="bd_9a15239f23f047df9e0064c1ad84c923_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_NotaryDomesticAddressPresentation" xlink:label="bd_773bb76d896b420db89d7bba1ac8f71e_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_PersonSpecification" xlink:label="bd_353eec8aff014e9fafc1963f38364004_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_GiftImmovablePropertyAddressPresentation" xlink:label="bd_615b303bc030499fa709ea2611aa6117_loc" xlink:type="locator" />
+    <link:loc xlink:href="./bd-tuples-ext1.xsd#bd-t-ext1_CorrespondenceAddressPresentation" xlink:label="bd_f6e003a4097f41759ac066d81b343b4d_loc" xlink:type="locator" />
+    <link:labelArc xlink:from="bd_ed37ec2d8da24039913f7d5d0891d74a_loc" xlink:to="bd_49d9b0d4d48b4c55a0ca4cd7cd8db2a4_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_43f3463df198497782f20cb4fa190312_loc" xlink:to="bd_adfa96339c1b4c66a12c5ec0a01c0bef_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_a4a23a83e9204efc99f02bfef495e430_loc" xlink:to="bd_01de496db42143cfb6cdb7b4928eeb8c_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_708ebd7c6de045bba9c0787f1ce1bd1c_loc" xlink:to="bd_5271d786dc6c4cefba6298cebceb691f_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_2e569eed26dd46f5b6b86d99a053e105_loc" xlink:to="bd_e11b9627b02444d9b90a9b4977d85b63_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_d162f1a3d61145c1882f02fe98fa5cc6_loc" xlink:to="bd_3b4111a30469444190c268fdb09da496_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_fe8fbd703362411b89f6d4b7604ad799_loc" xlink:to="bd_1eea0a2a89684428ab2779d08072c1a5_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_9e67d4d254ad495589f2386911c04312_loc" xlink:to="bd_e9331a15795b40ef903e5d8b579f377f_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_4d6be6dd25aa45d4a758df637d1bbf53_loc" xlink:to="bd_ff65408a8f3f4183a794c3de0541d785_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_3d08bbfa0ee9400aa05a77e7254068b2_loc" xlink:to="bd_66f82d6a528c410e984b32c8fcb12237_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_0b6ff171ea37496781a9a8da77329a71_loc" xlink:to="bd_c7776b23c81e489793fe7068384c3e03_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_b4aa470bfb4d44c28384211745c15957_loc" xlink:to="bd_4274ca258b1e4a63a9aba653ea76b369_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_ad4e90675ed04310b25c2ccc22a0f1cc_loc" xlink:to="bd_392799ff2fe14f9e9edc1449d530933c_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_4c55ef4b20b24742aae8388830d9f026_loc" xlink:to="bd_3d4beecb8577471c84063cf30e57cd00_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_13aa6e46c43249c5bdfb64b68ee04b62_loc" xlink:to="bd_78a3fbdd42f548fd96781450f60808f4_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_d68abcf4a3bf405dad088d397bb59976_loc" xlink:to="bd_56fc251830cb4cebbf87f9c0b2b505da_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_52b29c8e085f427b8aae9791f647da84_loc" xlink:to="bd_3f5a561e2f264d16b95192d7850b7f0f_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_758968886e184a33980925093fd5e6fc_loc" xlink:to="bd_b141d4e7fb2744ec88fc2e95348f1e9f_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_c39f9b69ebef4b949ddc714fab06bf03_loc" xlink:to="bd_2c4cf02666574863a33234bc9f4cf77d_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_bf7ef368a80240759c9e749ad2d96f5e_loc" xlink:to="bd_df0db60a9080438e84f2418e6df53c15_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_416d7c3b9eaf4beb86196dc4ec14966f_loc" xlink:to="bd_551dab01d61b49e0839417ccb82aa729_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_2aa3b8e389de47ee9aec337b8ae9e145_loc" xlink:to="bd_96e33cbddcca4bbab0bf4c87ee45d4ea_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_b3e46650f03a4c7e8b385243d643651a_loc" xlink:to="bd_99c1259a9a6a4223afa3b29747e98470_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_7688a8be84dd4bf8b33f801f35b3d8ac_loc" xlink:to="bd_6cd026d4b0df48aeaf5d9e274faaf677_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_d3676c6f1f1d41fbbf8f4ca6921c28ef_loc" xlink:to="bd_5d87efc9814744508bff67fabcbf4d6c_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_9970d379cce04f3d83d1db6a059d448c_loc" xlink:to="bd_a29bc254fb43486eae763f282a951ba0_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_659c2a77189c4f91a37fb19e752909b1_loc" xlink:to="bd_0b583c6a8b9049f98a2e2ff3a82f6b55_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_3b467155753c420188293b640db9616f_loc" xlink:to="bd_67d848b1e5ec46ddbb9233ae45b650e7_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_52d29c46738c452b810f36b124e1684f_loc" xlink:to="bd_4ded191a06144cb5bd5a12e56fdf7f14_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_6173451c0fd04531a9bb46112e922fb3_loc" xlink:to="bd_6d2c95b21a6046dab75f0554978f341b_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_2ec423f221984994b49e123df32a476a_loc" xlink:to="bd_1e3b33aebc0a4710979f8dfee4afc66a_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_0cf90cb01ba446d6bd84b3307c645f08_loc" xlink:to="bd_cc007b98b05d4a97bf8de9fc453a7627_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_244fe9e6e5de4fc5b91bd37c339716cd_loc" xlink:to="bd_de7aa0062e6244fdbb679fc25c687fc8_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_6e79dbbea9114b5baf80be1aca7f2696_loc" xlink:to="bd_0cfcf9a57d104b8ca6a07288bb64ae8d_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_e36977bf16694a88ae48c62cf4258e3b_loc" xlink:to="bd_a10451adcf484e5d9acd5f451beebcc2_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_bc1ff611bb0d4af0b495d3666c19c768_loc" xlink:to="bd_3b8cd2ecb26545eb905852d9acdd3871_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_be7a70e4a31f4840a375c8c769e423e6_loc" xlink:to="bd_1812055a8a1348c0adb3c839023f2e2c_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_a6468059363d4856a0e01445a4cff5af_loc" xlink:to="bd_49da5efd577249d7a6d73354fc091c5a_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_c3eccc8bd4a54b4d815bc7ecde58b1d4_loc" xlink:to="bd_4390e502680346f8a40d391cc656aea0_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_62b27946bbc14af4ace78c39c82676f4_loc" xlink:to="bd_738094f8965f4ef7b2bb2857542aa375_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_829f994015cb4646af141b349336285b_loc" xlink:to="bd_57a9cdded1694e42b759bd653106c2c4_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_dc22a4c7a9b043c7adcfe5131c8d7e75_loc" xlink:to="bd_2ee027c0b2154f91af2adef5ab46b68c_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_9a15239f23f047df9e0064c1ad84c923_loc" xlink:to="bd_32d46bd148b146a5a032a3069465ee4f_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_773bb76d896b420db89d7bba1ac8f71e_loc" xlink:to="bd_9218ed54cc8c48dcba748936210b0a11_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_353eec8aff014e9fafc1963f38364004_loc" xlink:to="bd_0fbfc5223bdf44b09ec2e7f1559c6d54_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_615b303bc030499fa709ea2611aa6117_loc" xlink:to="bd_5a1fb3d91b764f0781adabefbccbad80_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+    <link:labelArc xlink:from="bd_f6e003a4097f41759ac066d81b343b4d_loc" xlink:to="bd_ff65408a8f3f4183a794c3de0541d785_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc" />
+  </link:labelLink>
+</link:linkbase>
