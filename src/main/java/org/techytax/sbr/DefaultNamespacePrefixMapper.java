@@ -26,7 +26,10 @@ public class DefaultNamespacePrefixMapper extends NamespacePrefixMapper {
         namespaceMap.put("http://www.w3.org/2003/05/soap-envelope/", "soap");
         namespaceMap.put("http://www.xbrl.org/2003/instance", "xbrli");
         namespaceMap.put("http://www.xbrl.org/2003/linkbase", "link");
-        namespaceMap.put("http://www.nltaxonomie.nl/nt14/bd/20191211/dictionary/bd-data", "bdi");
+        namespaceMap.put("http://www.w3.org/1999/xlink", "xlink");
+        namespaceMap.put("http://www.nltaxonomie.nl/nt14/bd/20191211/dictionary/bd-data", "bd-i");
+        namespaceMap.put("http://www.nltaxonomie.nl/nt14/sbr/20190320/dictionary/iso4217-domains-currencycodes-2018-08-02", "iso4217");
+        namespaceMap.put("http://xbrl.org/2006/xbrldi", "xbrldi");
     }
 
     /* (non-Javadoc)
